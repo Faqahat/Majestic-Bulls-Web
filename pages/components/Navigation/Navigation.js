@@ -9,18 +9,24 @@ function Navigation() {
 			className="px-5 w-full mx-auto h-[100px] xl:h-[150px] fixed bg-white border-b-2 border-black/20 xl:border-none z-50"
 		>
 			<div className="max-w-[1820px] w-full mx-auto flex items-center justify-between gap-28 h-full">
-				<a href="#" className="flex items-center gap-3 h-full">
+				<a href="#" className="flex items-center gap-1 h-full relative">
+					
 					<Image
 						src={HeaderLogo}
 						alt="logo"
+						width="130" 
+						// height="auto" 
+						// layout="responsive" 
+						 objectFit="contain"
 						className="w-16 md:w-20 lg:w-24 2xl:w-auto h-auto object-contain"
 					/>
-					<span className="text-lg md:text-2xl lg:text-3xl 2xl:text-[34px] font-nexa font-bold text-black whitespace-nowrap">
+					
+					<span className="text-lg md:text-1xl lg:text-2xl 2xl:text-[28px] font-nexa font-bold text-black whitespace-nowrap">
 						Majestic Bulls
 					</span>
 				</a>
 
-				<div className="navbar">
+				<div className="navbar w-auto">
 					<ul className="flex flex-col desktop:flex-row items-center justify-center desktop:justify-between gap-4 w-full">
 						<li>
 							<div href="#intro" className="text-link active">

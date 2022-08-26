@@ -20,16 +20,18 @@ function TheMajesticOnes() {
 		>
 			<div className="max-w-[1344px] w-full md:px-5 mx-auto text-center mb-12 md:mb-20">
 				<div className="flex items-center md:items-end justify-center gap-2 sm:gap-5 mb-7 md:mb-16">
-					<h2 className="text-3xl md:text-[55px] text-black md:leading-[70px] font-light">
+					<h2 className="text-3xl md:text-[40px] text-black md:leading-[70px] font-light">
 						{'//'} <span className="font-bold">The</span> Majestic Ones
 					</h2>
 					<Image
 						src={img_magestic_ones}
 						alt="img"
 						className="w-12 md:w-auto h-auto object-contain pb-1"
+						height="150"
+						width="150"
 					/>
 				</div>
-				<p className="font-pt-mono sm:text-[27px] font-normal leading-relaxed sm:leading-[55px]">
+				<p className="font-pt-mono sm:text-[23px] font-normal leading-relaxed sm:leading-[55px]">
 					The Majestic Ones (TMO) are The Chosen 10 Bulls which hold undefinable
 					powers. Each of These Bulls have Different Powers Which can be used ..
 					For Lorem Epsom
@@ -45,9 +47,12 @@ function TheMajesticOnes() {
 						<Image
 							src={b1}
 							alt="img"
-							className="w-full h-auto object-contain"
+							className="w-96 h-auto object-contain"
+							height="500"
+							width="500"
+							
 						/>
-						<p className="text-sm sm:text-xl lg:text-[33px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-3">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
 							Minted!
 						</p>
 					</a>
@@ -61,6 +66,8 @@ function TheMajesticOnes() {
 							src={b2}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -74,6 +81,8 @@ function TheMajesticOnes() {
 							src={b3}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -87,6 +96,8 @@ function TheMajesticOnes() {
 							src={b4}
 							alt="img"
 							className="w-[200px] h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -100,8 +111,10 @@ function TheMajesticOnes() {
 							src={b5}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
-						<p className="text-sm sm:text-xl lg:text-[33px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-3">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
 							Minted!
 						</p>
 					</a>
@@ -116,6 +129,8 @@ function TheMajesticOnes() {
 							src={b6}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -129,6 +144,8 @@ function TheMajesticOnes() {
 							src={b7}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -142,8 +159,10 @@ function TheMajesticOnes() {
 							src={b8}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
-						<p className="text-sm sm:text-xl lg:text-[33px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-3">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
 							Minted!
 						</p>
 					</a>
@@ -158,6 +177,8 @@ function TheMajesticOnes() {
 							src={b9}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -171,6 +192,8 @@ function TheMajesticOnes() {
 							src={b10}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>
@@ -184,8 +207,10 @@ function TheMajesticOnes() {
 							src={b11}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
-						<p className="text-sm sm:text-xl lg:text-[33px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-3">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
 							Minted!
 						</p>
 					</a>
@@ -200,6 +225,8 @@ function TheMajesticOnes() {
 							src={b12}
 							alt="img"
 							className="w-full h-auto object-contain"
+							height="500"
+							width="500"
 						/>
 					</a>
 				</div>

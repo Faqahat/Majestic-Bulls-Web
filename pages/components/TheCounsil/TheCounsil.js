@@ -11,17 +11,19 @@ function TheCounsil() {
 			id="council"
 		>
 			<div className="flex items-center md:items-end justify-center gap-2 sm:gap-5 mb-7 md:mb-16 xl:mb-28">
-				<h2 className="text-3xl md:text-[55px] text-black md:leading-[70px] font-light">
+				<h2 className="text-3xl md:text-[45px] text-black md:leading-[70px] font-light">
 					{'//'} <span className="font-bold">The</span> Council
 				</h2>
 			</div>
 
-			<div className="grid grid-cols-[repeat(auto-fit,minmax(140px,1fr))] sm:grid-cols-3 lg:grid-cols-4 gap-x-6 sm:gap-x-10 2xl:gap-x-28 gap-y-16 xl:gap-y-36 max-w-[1500px] w-full mx-auto">
+			<div className="grid grid-cols-[repeat(auto-fit,minmax(140px,1fr))] sm:grid-cols-3 lg:grid-cols-4 gap-x-6 sm:gap-x-6 2xl:gap-x-28 gap-y-16 xl:gap-y-36 max-w-[1500px] w-full mx-auto">
 				<div>
 					<Image
 						src={bull1}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5 "
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -36,6 +38,8 @@ function TheCounsil() {
 						src={bull2}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -50,6 +54,8 @@ function TheCounsil() {
 						src={bull5}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -64,6 +70,8 @@ function TheCounsil() {
 						src={bull1}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -78,6 +86,8 @@ function TheCounsil() {
 						src={bull2}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -92,6 +102,8 @@ function TheCounsil() {
 						src={bull3}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -106,6 +118,8 @@ function TheCounsil() {
 						src={bull4}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor
@@ -120,6 +134,8 @@ function TheCounsil() {
 						src={bull5}
 						alt="onyx bull"
 						className="w-full h-auto object-contain block mx-auto mb-2.5"
+						height="250"
+						width="250"
 					/>
 					<p className="text-xl md:text-3xl xl:text-[40px] mb-2 md:mb-4 font-nexa">
 						The Councillor

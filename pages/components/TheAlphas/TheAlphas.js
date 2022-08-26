@@ -21,32 +21,34 @@ function TheAlphas() {
 			/>
 			<div className="w-full px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
-					<h2 className="text-3xl sm:text-[55px] text-white leading-[70px] font-light">
+					<h2 className="text-3xl sm:text-[45px] text-white leading-[70px] font-light">
 						{'//'} <span className="font-bold text-white">The</span> Alpha Bulls
 					</h2>
 					<Image
 						src={img_alpha_heading_png}
 						alt="img"
 						className="w-12 md:w-20 xl:w-auto xl:h-20 sm:h-auto object-contain"
+						height="80"
+						width="80"
 					/>
 				</div>
-				<ul className="mb-[50px] space-y-2 md:space-y-0">
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[26px] 2xl:leading-[40px]">
+				<ul className="mb-[40px] space-y-2 md:space-y-0">
+					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						Alpha Bulls Club is a group of TOP HODLRS.
 					</li>
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[26px] 2xl:leading-[40px]">
+					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						Alpha Group members get exclusive access to XYZ features.
 					</li>
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[26px] 2xl:leading-[40px]">
+					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						Alpha Bulls get free Starbucks Coupon On Every Alpha Session.
 					</li>
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[26px] 2xl:leading-[40px]">
+					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						12 Slots of Alpha Bulls Club are reserved for HODLRs of The Majestic
 						Ones.
 					</li>
 				</ul>
 				<div>
-					<p className="text-3xl md:text-[40px] underline text-[#717171] font-light font-nexa underline-offset-2">
+					<p className="text-3xl md:text-[30px] underline text-[#717171] font-light font-nexa underline-offset-2">
 						Perks
 					</p>
 					<div className="grid sm:grid-cols-2 gap-10 sm:gap-6 xl:gap-10 w-full mt-5">
@@ -55,8 +57,10 @@ function TheAlphas() {
 								src={img_coffee_png}
 								alt="img"
 								className="w-11 sm:w-auto h-auto object-contain"
+								height="50"
+								width="50"
 							/>
-							<p className="text-xl xl:text-[26px] font-nexa font-light leading-9 text-white">
+							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
 								Free Coffees (i)
 							</p>
 						</div>
@@ -65,8 +69,10 @@ function TheAlphas() {
 								src={img_online_learning}
 								alt="img"
 								className="w-11 sm:w-auto h-auto object-contain"
+								height="50"
+								width="50"
 							/>
-							<p className="text-xl xl:text-[26px] font-nexa font-light leading-9 text-white">
+							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
 								Exclusive Sessions
 							</p>
 						</div>
@@ -75,8 +81,10 @@ function TheAlphas() {
 								src={img_hoodie}
 								alt="img"
 								className="w-11 sm:w-auto h-auto object-contain"
+								height="50"
+								width="50"
 							/>
-							<p className="text-xl xl:text-[26px] font-nexa font-light leading-9 text-white">
+							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
 								Exclusive Merch
 							</p>
 						</div>
@@ -85,8 +93,10 @@ function TheAlphas() {
 								src={img_bomber}
 								alt="img"
 								className="w-11 sm:w-auto h-auto object-contain"
+								height="50"
+								width="50"
 							/>
-							<p className="text-xl xl:text-[26px] font-nexa font-light leading-9 text-white">
+							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
 								Airdrop of Utility Token
 							</p>
 						</div>
@@ -95,25 +105,29 @@ function TheAlphas() {
 								src={img_checklist}
 								alt="img"
 								className="w-11 sm:w-auto h-auto object-contain"
+								height="50"
+								width="50"
 							/>
-							<p className="text-xl xl:text-[26px] font-nexa font-light leading-9 text-white">
+							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
 								W/L in Future Projects
 							</p>
 						</div>
 						<a
 							href="#"
-							className="text-xl xl:text-[26px] font-nexa font-light leading-9 text-white underline inline-block"
+							className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white underline inline-block"
 						>
 							And more…
 						</a>
 					</div>
 					<div className="flex justify-center mt-32">
-						<button className="bg-white md:max-w-[360px] md:w-full md:h-[80px] text-xl md:text-[42px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3">
+						<button className="bg-white md:max-w-[300px] md:w-full md:h-[60px] text-xl md:text-[30px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3">
 							Join Club
 							<Image
 								src={img_arrow}
 								alt="arrow"
 								className="w-7 md:w-auto h-auto object-contain"
+								height="40"
+								width="40"
 							/>
 						</button>
 					</div>

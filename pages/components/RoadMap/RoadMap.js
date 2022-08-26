@@ -1,13 +1,15 @@
+
 export default function Tale() {
+	
 	return (
 		<section className="py-20 lg:py-40 2xl:pl-20 pl-7 block md:flex justify-between gap-5">
 			<div className="lg:max-w-[1000px] w-full mb-10 md:mb-0">
-				<h3 className="text-3xl md:text-4xl xl:text-6xl font-bold font-nexa">
+				<h3 className="text-3xl md:text-4xl xl:text-5xl font-bold font-nexa">
 					What’s Coming Next?
 				</h3>
 			</div>
 			<div className="lg:max-w-[880px] w-full">
-				<h2 className="text-4xl lg:text-6xl 2xl:text-[70px] font-bold leading-none font-nexa mb-10 xl:mb-20">
+				<h2 className="text-4xl lg:text-5xl 2xl:text-[70px] font-bold leading-none font-nexa mb-10 xl:mb-20">
 					1. NFT Collection
 				</h2>
 				<ul className="space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
@@ -26,7 +28,10 @@ export default function Tale() {
 					Previews:
 				</p>
 
-				<div className="nft-slider">
+				
+				
+
+				{/* <div className="nft-slider">
 					<div>
 						<div className="relative video-wrapper">
 							<video src={require('@imgs/vid-1.mp4')}></video>
@@ -43,9 +48,9 @@ export default function Tale() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
-				<div className="flex items-center gap-10 sm:gap-20 justify-end mt-10 md:mt-12 pr-4 xl:pr-10">
+				{/* <div className="flex items-center gap-10 sm:gap-20 justify-end mt-10 md:mt-12 pr-4 xl:pr-10">
 					<button className="nft-back p-2 disabled:opacity-40">
 						<svg
 							className="sm:w-10 w-6 h-6 sm:h-10 fill-current"
@@ -64,7 +69,7 @@ export default function Tale() {
 							<path d="M113.3 47.41l183.1 191.1c4.469 4.625 6.688 10.62 6.688 16.59s-2.219 11.97-6.688 16.59l-183.1 191.1c-9.152 9.594-24.34 9.906-33.9 .7187c-9.625-9.125-9.938-24.38-.7187-33.91l168-175.4L78.71 80.6c-9.219-9.5-8.906-24.78 .7187-33.91C88.99 37.5 104.2 37.82 113.3 47.41z" />
 						</svg>
 					</button>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)

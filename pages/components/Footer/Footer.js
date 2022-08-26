@@ -5,7 +5,7 @@ function Footer() {
 		<footer className="bg-black w-full px-5 pb-10 pt-[70px] mt-28">
 			<div className="max-w-[1670px] w-full mx-auto grid grid-cols-1 xl:grid-cols-[minmax(150px,460px),minmax(700px,1fr)] gap-9 2xl:gap-52 gap-y-12">
 				<div className="w-full text-center">
-					<div className="flex justify-center xl:justify-start">
+					<div className="flex justify-center ">
 						<Image
 							src={bull_skull_footer}
 							alt="footer-logo"
@@ -58,7 +58,7 @@ function Footer() {
 							<li className="mb-4">
 								<a
 									href="#"
-									className="text-lg sm:text-[20px] 2xl:text-[34px] font-nexa font-normal text-white leading-[38px]"
+									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Council{' '}
 								</a>
