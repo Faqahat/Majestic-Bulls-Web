@@ -1,29 +1,23 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme  = require(`tailwindcss/defaultTheme`);
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}",   
   "./components/**/*.{js,ts,jsx,tsx}",  ],
 
   theme: {
     extend: {
-      colors:
-      {
-        brand:"#0fa9e6",
+      fontFamily: {
+        "pt-mono": "PT Mono, monospace",
+        nexa: "Nexa, sans-serif",
       },
-     
-      fontFamily:
-      {
-        'Grotesk': 'Grotesk-wide'
+      backgroundImage: {
+        tale: 'url("../img/tale.png")',
       },
 
-      fontFamily:
-      {
-        'Archivo': 'Archivo Black'
+      screens: {
+        desktop: { min: "1440px" },
+        ...defaultTheme.screens,
       },
-      fontFamily:
-      {
-        'TimesNewRoman':'TimesNewRoman'
-      }
-
     },
   },
   plugins: [ require('tailwind-scrollbar')],
