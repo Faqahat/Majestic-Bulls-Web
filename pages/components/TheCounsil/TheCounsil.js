@@ -12,7 +12,7 @@ function TheCounsil() {
 		>
 			<div className="flex items-center md:items-end justify-center gap-2 sm:gap-5 mb-7 md:mb-16 xl:mb-28">
 				<h2 className="text-3xl md:text-[55px] text-black md:leading-[70px] font-light">
-					// <span className="font-bold">The</span> Council
+					{'//'} <span className="font-bold">The</span> Council
 				</h2>
 			</div>
 

@@ -22,7 +22,7 @@ function TheAlphas() {
 			<div className="w-full px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
 					<h2 className="text-3xl sm:text-[55px] text-white leading-[70px] font-light">
-						// <span className="font-bold text-white">The</span> Alpha Bulls
+						<span className="font-bold text-white">{'//'} The</span> Alpha Bulls
 					</h2>
 					<Image
 						src={img_alpha_heading_png}

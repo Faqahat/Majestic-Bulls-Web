@@ -28,7 +28,7 @@ function Footer() {
 									href="#intro"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
-									// <span className="font-bold">The</span> Intro
+									{'//'} <span className="font-bold">The</span> Intro
 								</a>
 							</li>
 							<li className="mb-4">
@@ -36,7 +36,7 @@ function Footer() {
 									href="#tale"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
-									// <span className="font-bold">The</span> Tale
+									{'//'} <span className="font-bold">The</span> Tale
 								</a>
 							</li>
 							<li className="mb-4">
@@ -44,7 +44,7 @@ function Footer() {
 									href="#alpha"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
-									// <span className="font-bold">The</span> Alphas{' '}
+									{'//'} <span className="font-bold">The</span> Alphas{' '}
 								</a>
 							</li>
 							<li className="mb-4">
@@ -52,7 +52,7 @@ function Footer() {
 									href="#majestic"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
-									// <span className="font-bold">The</span> Majestics{' '}
+									{'//'} <span className="font-bold">The</span> Majestics{' '}
 								</a>
 							</li>
 							<li className="mb-4">
@@ -60,7 +60,7 @@ function Footer() {
 									href="#"
 									className="text-lg sm:text-[20px] 2xl:text-[34px] font-nexa font-normal text-white leading-[38px]"
 								>
-									// <span className="font-bold">The</span> Council{' '}
+									{'//'} <span className="font-bold">The</span> Council{' '}
 								</a>
 							</li>
 						</ul>

@@ -21,7 +21,7 @@ function TheMajesticOnes() {
 			<div className="max-w-[1344px] w-full md:px-5 mx-auto text-center mb-12 md:mb-20">
 				<div className="flex items-center md:items-end justify-center gap-2 sm:gap-5 mb-7 md:mb-16">
 					<h2 className="text-3xl md:text-[55px] text-black md:leading-[70px] font-light">
-						// <span className="font-bold">The</span> Majestic Ones
+						{'//'} <span className="font-bold">The</span> Majestic Ones
 					</h2>
 					<Image
 						src={img_magestic_ones}
@@ -40,7 +40,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right sm:pr-5">
-							// The Devil Bull
+							{'//'} The Devil Bull
 						</p>
 						<Image
 							src={b1}
@@ -55,7 +55,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Golden
+							{'//'} The Golden
 						</p>
 						<Image
 							src={b2}
@@ -68,7 +68,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Sun Bull
+							{'//'} The Sun Bull
 						</p>
 						<Image
 							src={b3}
@@ -81,7 +81,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Electric
+							{'//'} The Electric
 						</p>
 						<Image
 							src={b4}
@@ -94,7 +94,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Light
+							{'//'} The Light
 						</p>
 						<Image
 							src={b5}
@@ -110,7 +110,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Prism
+							{'//'} The Prism
 						</p>
 						<Image
 							src={b6}
@@ -123,7 +123,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Metallic
+							{'//'} The Metallic
 						</p>
 						<Image
 							src={b7}
@@ -136,7 +136,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Solar
+							{'//'} The Solar
 						</p>
 						<Image
 							src={b8}
@@ -152,7 +152,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Mage
+							{'//'} The Mage
 						</p>
 						<Image
 							src={b9}
@@ -165,7 +165,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Galaxy
+							{'//'} The Galaxy
 						</p>
 						<Image
 							src={b10}
@@ -178,7 +178,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Thunder
+							{'//'} The Thunder
 						</p>
 						<Image
 							src={b11}
@@ -194,7 +194,7 @@ function TheMajesticOnes() {
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
 						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
-							// The Sonar
+							{'//'} The Sonar
 						</p>
 						<Image
 							src={b12}
