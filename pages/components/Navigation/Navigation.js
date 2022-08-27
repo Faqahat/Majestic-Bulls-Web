@@ -67,7 +67,7 @@ function Navigation() {
 						</li>
 					</ul>
 					<a
-						href="https://twitter.com/Majestic_Bull" target="_blank"
+						href="https://twitter.com/Majestic_Bull" target="_blank" rel="noreferrer"
 						className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:animate-bounce "
 					>
 						<svg
