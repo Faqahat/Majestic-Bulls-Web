@@ -120,8 +120,8 @@ function Footer() {
 						<ul>
 							<li className="mb-10">
 								<a
-									href="#"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+									href="https://discord.gg/sMegyjpt6b" target="_blank"
+									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#406da2]"
 								>
 									{' '}
 									Discord{' '}
@@ -129,16 +129,16 @@ function Footer() {
 							</li>
 							<li className="mb-10">
 								<a
-									href="#"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+									href="https://twitter.com/Majestic_Bull" target="_blank"
+									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#00acee]" 
 								>
 									Twitter
 								</a>
 							</li>
 							<li className="mb-10">
 								<a
-									href="#"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+									href="https://www.instagram.com/majestic.bulls/?hl=en" target="_blank"
+									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#8a3ab9] "
 								>
 									Instagram{' '}
 								</a>
@@ -147,9 +147,12 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			<p className="font-nexa font-light mt-16 text-xl sm:text-[22px] leading-[30px] text-white text-center">
-				Project By <span className="text-[#C67312]">Cyber Fox</span>
+			
+			<a href="https://www.fox.so/" target="_blank"  >
+			<p className="font-nexa font-light mt-16 text-xl sm:text-[22px] leading-[30px] text-white text-center hover:text-[#C67312]">
+			Project By <span className="text-[#C67312] hover:text-[#FFFFFF]">Cyber Fox</span> 
 			</p>
+			</a>
 		</footer>
 	)
 }

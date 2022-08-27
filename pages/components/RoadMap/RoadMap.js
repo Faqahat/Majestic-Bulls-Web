@@ -2,7 +2,7 @@
 export default function Tale() {
 	
 	return (
-		<section className="py-20 lg:py-40 2xl:pl-20 pl-7 block md:flex justify-between gap-5">
+		<section id="roadmap" className="py-20 lg:py-40 2xl:pl-20 pl-7 block md:flex justify-between gap-5">
 			<div className="lg:max-w-[1000px] w-full mb-10 md:mb-0">
 				<h3 className="text-3xl md:text-4xl xl:text-5xl font-bold font-nexa">
 					What’s Coming Next?

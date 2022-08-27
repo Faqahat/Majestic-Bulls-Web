@@ -1,14 +1,21 @@
 import Image from 'next/image'
-
+import React , { useState } from "react";
 import HeaderLogo from '../../img/logo.png'
 
 function Navigation() {
+	const [intro, setIntro] = useState(false);
+	const [tale, setTale] = useState(false);
+	const [majestic, setMajestic] = useState(false);
+	const [alpha, setAplha] = useState(false);
+	const [roadmap, setRoadmap] = useState(false);
+	const [council, setCouncil] = useState(false);
+	
 	return (
 		<nav
 			id="navbar"
 			className="px-5 w-full mx-auto h-[100px] xl:h-[150px] fixed bg-white border-b-2 border-black/20 xl:border-none z-50"
 		>
-			<div className="max-w-[1820px] w-full mx-auto flex items-center justify-between gap-28 h-full">
+			<div className="max-w-[1820px] w-full mx-auto flex items-center justify-between gap-[4rem] h-full">
 				<a href="#" className="flex items-center gap-1 h-full relative">
 					
 					<Image
@@ -29,45 +36,45 @@ function Navigation() {
 				<div className="navbar w-auto">
 					<ul className="flex flex-col desktop:flex-row items-center justify-center desktop:justify-between gap-4 w-full">
 						<li>
-							<div href="#intro" className="text-link active">
+							<a href="#intro"  className={intro ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#64748b] duration-300" } onClick={()=>{setIntro(true);setTale(false);setMajestic(false);setAplha(false);setRoadmap(false);setCouncil(false)}}>
 								<span className="font-bold">The </span> Intro
-							</div>
+							</a>
 						</li>
 						<li>
-							<div href="#tale" className="text-link">
+							<a href="#tale" className={tale ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#64748b] duration-300" }  onClick={()=>{setIntro(false);setTale(true);setMajestic(false);setAplha(false);setRoadmap(false);setCouncil(false)}}>
 								<span className="font-bold"> The </span> Tale
-							</div>
+							</a>
 						</li>
 						<li>
-							<div href="#majestic" className="text-link">
+							<a href="#majestic" className={majestic ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#64748b] duration-300" } onClick={()=>{setIntro(false);setTale(false);setMajestic(true);setAplha(false);setRoadmap(false);setCouncil(false)}}>
 								<span className="font-bold"> The </span>Majestics
-							</div>
+							</a>
 						</li>
 						<li>
-							<div href="#alpha" className="text-link">
+							<a href="#alpha" className={alpha ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#64748b] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(true);setRoadmap(false);setCouncil(false)}}>
 								<span className="font-bold"> The </span> Alphas
-							</div>
+							</a>
 						</li>
 						<li>
-							<div href="#roadmap" className="text-link">
+							<a href="#roadmap" className={roadmap ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#64748b] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(false);setRoadmap(true);setCouncil(false)}}>
 								<span className="font-bold"> The </span> Roadmap
-							</div>
+							</a>
 						</li>
 						<li>
-							<div href="#council" className="text-link">
+							<a href="#council" className={council ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#64748b] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(false);setRoadmap(false);setCouncil(true)}}>
 								<span className="font-bold"> The </span>Council
-							</div>
+							</a>
 						</li>
 					</ul>
 					<a
-						href="#"
-						className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070]"
+						href="https://twitter.com/Majestic_Bull" target="_blank"
+						className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:animate-bounce "
 					>
 						<svg
-							className="2xl:w-8 w-6 h-6 2xl:h-8"
+							className="2xl:w-8 w-6 h-6 2xl:h-8 hover:fill-[#FFFFFF]"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 512 512"
-							fill="currentColor"
+							fill="currentColor "
 						>
 							<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
 						</svg>
