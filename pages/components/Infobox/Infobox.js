@@ -1,19 +1,39 @@
+import forestImg from '@imgs/bg forest.png'
+import downloadImg from '@imgs/download.png'
 import Image from 'next/image'
 
 function InfoBox() {
 	return (
-		<section className="py-12 px-5 bg-black text-white">
-			<h1 className="text-4xl font-light text-center md:text-5xl 2xl:text-2xl mb-[130px]">
-				<strong className="font-bold">Get</strong> Whitelisted{' '}
+		<section className="w-full h-full  relative py-12 px-5 bg-black text-white">
+			<Image
+				src={forestImg}
+				alt="img"
+				className="w-full aspect-video md:aspect-auto md:h-full object-cover md:object-right"
+				layout="fill"
+			/>
+
+			<h1 className="relative text-3xl font-light text-center md:text-5xl 2xl:text-6xl mb-[130px]">
+			
+				<strong className="font-bold">Get</strong> Digest{' '}
 				<strong className="font-bold">!</strong>
+				<br/>
+				<span className="text-2xl"> Version 1.0 </span>
 			</h1>
-			<ul className="flex items-center justify-center gap-4 flex-wrap sm:gap-7 xl:gap-16">
-				<li>
+			<ul className="relative flex  items-center justify-center gap-4 flex-wrap sm:gap-7 xl:gap-16">
+				<li  >
 					<a
 						href="#"
-						className="block w-fit text-base text-black bg-white px-7 pt-2 pb-3 leading-normal sm:text-xl md:text-3xl 2xl:text-5xl font-nexa"
+						className="flex w-fit items-center text-base text-black bg-white px-7 pt-3 pb-3 leading-normal sm:text-xl md:text-2xl 2xl:text-3xl font-nexa hover:-translate-y-1 hover:scale-110"
 					>
-						Apply
+						<span className="text-xl mr-6 font-semibold ">Download</span>
+				<Image
+				src={downloadImg}
+				alt="img"
+				className="w-full aspect-video md:aspect-auto md:h-full object-cover md:object-right"
+				height="35"
+				width="35"
+			/>
+
 					</a>
 				</li>
 				<li className="text-base sm:text-xl md:text-3xl font-bold font-nexa">
@@ -24,7 +44,7 @@ function InfoBox() {
 						href="#"
 						className="text-base sm:text-xl md:text-2xl xl:text-3xl font-light font-nexa underline"
 					>
-						View White List
+						View Online
 					</a>
 				</li>
 			</ul>

@@ -29,16 +29,16 @@ function TheMajesticOnes() {
 			id="majestic"
 		>
 			<div className="max-w-[1344px] w-full md:px-5 mx-auto text-center mb-12 md:mb-20">
-				<div className="flex items-center md:items-end justify-center gap-2 sm:gap-5 mb-7 md:mb-16">
-					<h2 className="text-3xl md:text-[40px] text-black md:leading-[70px] font-light">
+				<div className="flex items-center md:items-end justify-center  mb-7 md:mb-16">
+					<h2 className="text-3xl md:text-[35px] text-black  font-light sm:pt-14 ">
 						{'//'} <span className="font-bold">The</span> Majestic Ones
 					</h2>
 					<Image
 						src={img_magestic_ones}
 						alt="img"
 						className="w-12 md:w-auto h-auto object-contain pb-1"
-						height="150"
-						width="150"
+						height="100"
+						width="100"
 					/>
 				</div>
 				<p className="font-pt-mono sm:text-[23px] font-normal leading-relaxed sm:leading-[55px]">
@@ -51,7 +51,7 @@ function TheMajesticOnes() {
 			<div className="w-full grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] md:grid-cols-3 lg:grid-cols-4 gap-6 xl:gap-[62px]">
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block" >
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right sm:pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Devil Bull
 						</p>
 						<Image
@@ -62,14 +62,14 @@ function TheMajesticOnes() {
 							width="500"
 							onClick={() => {setShowModal(true);setImgName(b1)}}
 						/>
-						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[70px] -right-[2px]">
 							Minted!
 						</p>
 					</a>
 				</div>
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Golden
 						</p>
 						<Image
@@ -85,7 +85,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Sun Bull
 						</p>
 						<Image
@@ -101,7 +101,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Electric
 						</p>
 						<Image
@@ -117,7 +117,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Light
 						</p>
 						<Image
@@ -128,7 +128,7 @@ function TheMajesticOnes() {
 							width="500"
 							onClick={() => {setShowModal(true);setImgName(b5)}}
 						/>
-						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[70px] -right-[2px]">
 							Minted!
 						</p>
 					</a>
@@ -136,7 +136,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Prism
 						</p>
 						<Image
@@ -152,7 +152,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Metallic
 						</p>
 						<Image
@@ -168,7 +168,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Solar
 						</p>
 						<Image
@@ -179,7 +179,7 @@ function TheMajesticOnes() {
 							width="500"
 							onClick={() => {setShowModal(true);setImgName(b8)}}
 						/>
-						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[70px] -right-[2px]">
 							Minted!
 						</p>
 					</a>
@@ -187,7 +187,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Mage
 						</p>
 						<Image
@@ -203,7 +203,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Galaxy
 						</p>
 						<Image
@@ -219,7 +219,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Thunder
 						</p>
 						<Image
@@ -230,7 +230,7 @@ function TheMajesticOnes() {
 							width="500"
 							onClick={() => {setShowModal(true);setImgName(b11)}}
 						/>
-						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[60px] -right-1">
+						<p className="text-sm sm:text-xl lg:text-[24px] font-bold sm:leading-[27px] bg-black text-white inline-block p-1 sm:p-1.5 transform rotate-[30deg] absolute top-12 sm:top-14 md:top-[70px] -right-[2px]">
 							Minted!
 						</p>
 					</a>
@@ -238,7 +238,7 @@ function TheMajesticOnes() {
 
 				<div className="relative hover:transform hover:-translate-y-2 transition-all duration-300">
 					<a href="#popup" className="open-popup inline-block">
-						<p className="mb-4 text-lg md:text-[25px] font-nexa font-bold text-[#9d9d9d] text-right pr-5">
+						<p className="mb-1 text-lg md:text-[20px] text-link text-[#9d9d9d] text-right sm:pr-10">
 							{'//'} The Sonar
 						</p>
 						<Image

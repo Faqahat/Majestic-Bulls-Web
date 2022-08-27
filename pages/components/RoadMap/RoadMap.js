@@ -47,7 +47,14 @@ export default function Tale() {
 							<video src={require('@imgs/vid-1.mp4')}></video>
 							<div className="absolute inset-0 w-full h-full object-cover bg-black z-10 flex items-center justify-center video-upperlayer">
 								<button className="text-white/50 video-playbtn p-4 transition-all duration-200 rounded-full hover:text-white">
-								<video  src={require('../../img/header.mp4')} type="video/mp4"    autoPlay muted/>
+								{/* <svg
+										className="md:w-14 w-9 h-9 md:h-14 fill-current"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 384 512"
+									>
+										<path d="M24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13V38.13zM48 432L336 256L48 80V432z" />
+									</svg> */}
+								<video  src={require('../../img/vid-1.mp4')} type="video/mp4"    autoPlay muted/>
 								</button>
 							</div>
 						</div>
@@ -61,13 +68,14 @@ export default function Tale() {
 							<video src={require('@imgs/vid-1.mp4')}></video>
 							<div className="absolute inset-0 w-full h-full object-cover bg-black z-10 flex items-center justify-center video-upperlayer">
 								<button className="text-white/50 video-playbtn p-4 transition-all duration-200 rounded-full hover:text-white">
-									<svg
+									{/* <svg
 										className="md:w-14 w-9 h-9 md:h-14 fill-current"
 										xmlns="http://www.w3.org/2000/svg"
 										viewBox="0 0 384 512"
 									>
 										<path d="M24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13V38.13zM48 432L336 256L48 80V432z" />
-									</svg>
+									</svg> */}
+									<video  src={require('../../img/vid-2.mp4')} type="video/mp4"    autoPlay muted/>
 								</button>
 							</div>
 						</div>

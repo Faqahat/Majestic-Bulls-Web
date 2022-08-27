@@ -18,6 +18,8 @@ function TheAlphas() {
 				src={img_alpha_png}
 				alt="img"
 				className="w-full lg:aspect-video xl:aspect-auto xl:h-full object-cover object-top"
+				// height="100%"
+				// width="100%"
 			/>
 			<div className="w-full px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
@@ -28,8 +30,8 @@ function TheAlphas() {
 						src={img_alpha_heading_png}
 						alt="img"
 						className="w-12 md:w-20 xl:w-auto xl:h-20 sm:h-auto object-contain"
-						height="80"
-						width="80"
+						height="65"
+						width="65"
 					/>
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
@@ -120,7 +122,7 @@ function TheAlphas() {
 						</a>
 					</div>
 					<div className="flex justify-center mt-32">
-						<button className="bg-white md:max-w-[300px] md:w-full md:h-[60px] text-xl md:text-[30px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3">
+						<button className="bg-white md:max-w-[250px] md:w-full md:h-[60px] text-xl md:text-[30px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3 hover:-translate-y-1 hover:scale-110">
 							Join Club
 							<Image
 								src={img_arrow}

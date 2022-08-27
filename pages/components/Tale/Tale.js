@@ -23,30 +23,16 @@ function Tale() {
 						src={taleHeader}
 						alt="img"
 						className="w-16 md:w-auto h-auto object-contain"
-						height="80"
-						width="80"
+						height="60"
+						width="60"
 					/>
 				</div>
 				<p
-					className="text-white md:text-[16px] text-base leading-relaxed md:leading-[30px] font-light pr-3 md:pr-12 font-nexa h-[350px] md:h-[330px] overflow-auto"
+					className="text-white md:text-[16px] text-base leading-relaxed md:leading-[30px] font-light pr-3 md:pr-12 font-nexa h-[350px] md:h-[350px] overflow-auto"
 					id="scrollbar-custom"
 				>
-					It is the year 2222. Life in Animatopia is the same as its been for
-					the past 100 years. The mighty rule over the weak, and the weak submit
-					to the strong. The kingdom is divided into various towns with several
-					species ruling over their areas. The kingdom is in harmony, but it has
-					not been that fair for every type. Little do the noble realise how
-					much struggle the frail have to commit to survive in this chain. The
-					hierarchy of power is not impartial for everyone, misusing the
-					authority to break the typical reasoning.It is the year 2222. Life in
-					Animatopia is the same as its been for the past 100 years. The mighty
-					rule over their areas. The kingdom is in harmony, but it has not been
-					that fair for every type. Little do the noble realise how much
-					struggle the frail have to commit to survive in this chain. The
-					hierarchy of power is not impartial for everyone, misusing the
-					authority to break the typical reasoning.It is the year 2222. Life in
-					Animatopia is the same as its been for the past 100 years. The mighty
-					rule over the weak, and
+					In the kingdom of Bullsmania, deep inside the walls of the castle surrounded by huge forests, reside the creatures of wonder, the forces of unnatural power, and the apex predator at the summit of the food chain, The Majestic Bulls. Bulls are seen as labor, food, and entertainment in old times and even today. Well, not these bulls though. These hold the strength of unimaginable proportion. Even the jungle king would think twice before interfering in their affairs. To be fair, who wouldn’t? These vast mountains of muscle would give nightmares to anyone they deem to pray. These focused on physical fitness spend most of their time working on their bodies and maintaining the buff and muscular build.
+					However, these oxen do not interfere in the matters of the other kingdoms and solely retain their affairs within the domain of Bullsmania. It’s not like they need to leave the kingdom for any need to get fulfilled within the dynasty’s locality. Bulls of all professions and cultures are found here. You’ve got the working bulls and the tyrant of the land, the mercenaries. It hasn’t always been this way, though. The history of Bullsmania is built on a solid foundation and years of struggle and blood. Bulls were no more than cattle until the year of reckoning. Tired of the injustice and pressure imposed on them, there seemed no way out for these magnificent beings until a group of brave young Bulls refused to give in. Until, one day, they chose rebellion. Wars broke out. Bulls that were seen as pure mammals were ruthless murdering maniacs. They didn’t get to be majestic overnight. Nevertheless, the hierarchy of the world changed that year. The King crowned the heroes of Bullsmania as the guardians of the land and protectors of the generations to come. The question is: What would it take to overthrow the kingdom again?
 				</p>
 			</div>
 		</section>

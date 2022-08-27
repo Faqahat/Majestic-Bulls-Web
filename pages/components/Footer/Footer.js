@@ -10,16 +10,18 @@ function Footer() {
 							src={bull_skull_footer}
 							alt="footer-logo"
 							className="w-auto h-auto object-contain block mx-auto"
+							width="150" 
+							height="150" 
 						/>
 					</div>
 
-					<p className="font-nexa font-light text-white text-[30px] leading-normal mb-2 xl:mb-0 xl:leading-[98px]">
+					<p className="text-link  text-white text-[30px] leading-normal mb-2 xl:mb-0 xl:leading-[98px]">
 						Majestic Bulls
 					</p>
 				</div>
 				<div className="w-full grid grid-cols-2 md:grid-cols-3 gap-7 2xl:gap-10">
 					<div>
-						<p className="font-nexa font-bold text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
+						<p className="font-nexa text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
 							Sections
 						</p>
 						<ul>
@@ -66,7 +68,7 @@ function Footer() {
 						</ul>
 					</div>
 					<div>
-						<p className="font-nexa font-bold text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
+						<p className="font-nexa  text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
 							Links
 						</p>
 						<ul>
@@ -114,7 +116,7 @@ function Footer() {
 						</ul>
 					</div>
 					<div className="">
-						<p className="font-nexa font-bold text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
+						<p className="font-nexa  text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
 							Social
 						</p>
 						<ul>
@@ -148,11 +150,11 @@ function Footer() {
 				</div>
 			</div>
 			
-			<a href="https://www.fox.so/" target="_blank"  rel="noreferrer">
+			{/* <a href="https://www.fox.so/" target="_blank"  rel="noreferrer">
 			<p className="font-nexa font-light mt-16 text-xl sm:text-[22px] leading-[30px] text-white text-center hover:text-[#C67312]">
 			Project By <span className="text-[#C67312] hover:text-[#FFFFFF]">Cyber Fox</span> 
 			</p>
-			</a>
+			</a> */}
 		</footer>
 	)
 }

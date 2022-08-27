@@ -40,7 +40,7 @@ function LandingPage() {
 						<TheAlphas />
 						<RoadMap />
 						<InfoBox />
-						<TheCounsil />
+						{/* <TheCounsil /> */}
 						<Footer />
 					</main>
 				</div>

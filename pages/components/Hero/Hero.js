@@ -6,7 +6,7 @@ function Header( ) {
 return (
 
 
-    <header id="intro" className="xl:pt-[150px] pt-[100px] scroll-mt-28 xl:scroll-mt-40 relative">
+    <header id="intro" className=" scroll-mt-28 xl:scroll-mt-40 relative">
     <span  className="aspect-[16/12] md:aspect-auto md:h-screen object-cover w-full" >
 
       <video  src={require('../../img/header.mp4')} type="video/mp4"    autoPlay muted/>
