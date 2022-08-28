@@ -13,7 +13,7 @@ function InfoBox() {
 			/>
 
 			<h1 className="relative text-4xl font-light text-center md:text-6xl 2xl:text-6xl mb-[130px]">
-				<strong className="font-bold font-Abreto">Download Digest</strong>{' '}
+				<strong className="font-extrabold font-Abreto">Download Digest</strong>{' '}
 				<br />
 				<span className="text-2xl"> Version 1.0 </span>
 			</h1>
@@ -21,7 +21,7 @@ function InfoBox() {
 				<li>
 					<a
 						href="#"
-						className="flex w-fit items-center text-base text-black bg-white px-7 pt-3 pb-3 leading-normal sm:text-xl md:text-2xl 2xl:text-3xl font-nexa hover:-translate-y-1 hover:scale-110"
+						className="flex w-fit items-center text-base text-black bg-white px-7 pt-3 pb-3 leading-normal sm:text-xl md:text-2xl 2xl:text-3xl font-nexa hover:-translate-y-1 hover:scale-110 duration-300"
 					>
 						<span className="text-xl mr-6 font-semibold ">Download</span>
 						<Image

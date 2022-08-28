@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import HeaderLogo from '../../img/logo.png'
+//import HeaderLogo from '../../img/logo.png'
+import HeaderLogo from '@imgs/bull (1).png'
 
 function Navigation() {
 
@@ -125,7 +126,7 @@ function Navigation() {
 						href="https://twitter.com/Majestic_Bull"
 						target="_blank"
 						rel="noreferrer"
-						className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:-translate-y-1 hover:scale-110 "
+						className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:-translate-y-1 hover:scale-110 duration-300"
 					>
 						<svg
 							className="2xl:w-8 w-6 h-6 2xl:h-8 hover:fill-[#FFFFFF]"

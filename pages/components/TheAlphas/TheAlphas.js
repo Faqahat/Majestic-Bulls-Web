@@ -23,7 +23,7 @@ function TheAlphas() {
 			/>
 			<div className="w-full px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
-					<h2 className="text-3xl sm:text-[45px] text-white leading-[70px] font-light font-Abreto">
+					<h2 className="text-3xl sm:text-[45px] text-white leading-[70px] font-light font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 						{'//'} <span className="font-bold text-white">The</span> Alpha Bulls
 					</h2>
 					<Image
@@ -122,7 +122,7 @@ function TheAlphas() {
 						</a>
 					</div>
 					<div className="flex justify-center mt-32">
-						<button className="bg-white md:max-w-[250px] md:w-full md:h-[60px] text-xl md:text-[30px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3 hover:-translate-y-1 hover:scale-110">
+						<button className="bg-white md:max-w-[250px] md:w-full md:h-[60px] text-xl md:text-[30px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3 hover:-translate-y-1 hover:scale-110 duration-300">
 							Join Club
 							<Image
 								src={img_arrow}

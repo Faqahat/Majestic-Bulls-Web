@@ -15,7 +15,7 @@ function Tale() {
 			/>
 			<div className="max-w-full lg:max-w-[554px] w-full bg-black ml-auto p-5 sm:p-[2rem] static lg:absolute  md:top-[1px] xl:top-[8rem]  right-20">
 				<div className="flex items-center gap-5 pb-[15px]">
-					<h2 className="text-3xl md:text-[43px] text-white leading-[70px] font-normal font-Abreto">
+					<h2 className="text-3xl md:text-[43px] text-white leading-[70px] font-normal font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 						{'//'} <span className="font-normal text-white ">The</span> Tale
 					</h2>
 

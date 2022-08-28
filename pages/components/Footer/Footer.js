@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import bull_skull_footer from '@imgs/bull_skull_footer.png'
+//import bull_skull_footer from '@imgs/bull_skull_footer.png'
+import bull_skull_footer from '@imgs/bull (1).png'
+
 function Footer() {
 	return (
 		<footer className="bg-black w-full px-5 pb-10 pt-[70px] ">
@@ -9,9 +11,9 @@ function Footer() {
 						<Image
 							src={bull_skull_footer}
 							alt="footer-logo"
-							className="w-auto h-auto object-contain block mx-auto"
-							width="150" 
-							height="150" 
+							className="w-auto h-auto object-contain block mx-auto invert"
+							width="120" 
+							height="120" 
 						/>
 					</div>
 

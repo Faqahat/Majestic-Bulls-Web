@@ -9,12 +9,12 @@ export default function Tale() {
 		<>
 		<section id="roadmap" className="py-20 pb-0  2xl:pl-20 pl-7 block md:flex justify-between gap-5">
 			<div className="lg:max-w-[1000px] w-full mb-10 md:mb-0">
-				<h3 className="text-3xl md:text-4xl xl:text-5xl font-bold font-nexa">
+				<h3 className="text-2xl md:text-3xl xl:text-4xl font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 					What’s Coming Next?
 				</h3>
 			</div>
 			<div className="lg:max-w-[880px] w-full">
-				<h2 className="text-4xl lg:text-5xl 2xl:text-[40px] font-bold leading-none font-nexa mb-10 xl:mb-20">
+				<h2 className="text-2xl lg:text-3xl 2xl:text-[40px] font-bold leading-none font-nexa mb-10 xl:mb-20">
 					1. NFT Collection
 				</h2>
 				<ul className="space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
@@ -29,16 +29,16 @@ export default function Tale() {
 					</li>
 				</ul>
 
-				<p className="font-light font-nexa text-black underline text-3xl lg:text-[42px] mb-10 xl:mb-16">
-					Previews:
-				</p>
+				
 
 				
 				
 				
 			</div>
 		</section>
-
+		<p className="font-light font-nexa text-black underline text-2xl lg:text-[35px] mb-10 xl:mb-16 text-center decoration-1 underline-offset-8">
+					Previews
+				</p>
 		<div className="w-[50%] ml-[23%] pb-10">
 		{slide1 ?
 				<div  className= "nft-slider ">
