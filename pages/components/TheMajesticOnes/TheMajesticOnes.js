@@ -47,7 +47,7 @@ function TheMajesticOnes() {
 		},
 		{
 			name: "The PLasma",
-			description: "The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility.It confers power over other people by being invisible to the naked eye.",
+			description: "The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire.Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky.He possesses the might of 100 suns.",
 			image: b3,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
@@ -74,7 +74,7 @@ function TheMajesticOnes() {
 		},
 		{
 			name: "The Prisim",
-			description: "The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire.Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky.He possesses the might of 100 suns.",
+			description: "The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility.It confers power over other people by being invisible to the naked eye.",
 			image: b6,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
