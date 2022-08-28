@@ -17,7 +17,7 @@ function TheAlphas() {
 			<Image
 				src={img_alpha_png}
 				alt="img"
-				className="w-full lg:aspect-video xl:aspect-auto xl:h-full object-cover object-top"
+				className="w-full lg:aspect-video xl:aspect-auto xl:h-full "
 				// height="100%"
 				// width="100%"
 			/>
@@ -29,7 +29,7 @@ function TheAlphas() {
 					<Image
 						src={img_alpha_heading_png}
 						alt="img"
-						className="w-12 md:w-20 xl:w-auto xl:h-20 sm:h-auto object-contain"
+						className="w-12 md:w-20 xl:w-auto xl:h-20 sm:h-auto "
 						height="65"
 						width="65"
 					/>

@@ -35,6 +35,15 @@ function Footer() {
 							</li>
 							<li className="mb-4">
 								<a
+									href="#thedesign"
+									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
+								>
+									{'//'} <span className="font-bold">The</span> Design
+								</a>
+							</li>
+							
+							<li className="mb-4">
+								<a
 									href="#tale"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
@@ -54,17 +63,17 @@ function Footer() {
 									href="#majestic"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
-									{'//'} <span className="font-bold">The</span> Majestics{' '}
+									{'//'} <span className="font-bold">The</span> Majestics Ones{' '}
 								</a>
 							</li>
-							<li className="mb-4">
+							{/* <li className="mb-4">
 								<a
 									href="#"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Council{' '}
 								</a>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 					<div>

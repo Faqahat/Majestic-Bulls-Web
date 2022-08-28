@@ -12,6 +12,7 @@ import Tale from './components/Tale/Tale'
 import TheAlphas from './components/TheAlphas/TheAlphas'
 import TheCounsil from './components/TheCounsil/TheCounsil'
 import TheMajesticOnes from './components/TheMajesticOnes/TheMajesticOnes'
+import TheDesign from './components/TheDesign/TheDesign'
 
 import '../styles/globals.css'
 
@@ -51,11 +52,13 @@ function LandingPage() {
 					<main>
 						{/*<Minting />*/}
 						<ShortDescription />
+						<TheDesign />
 						<Tale />
 						<TheMajesticOnes />
 						<TheAlphas />
 						<RoadMap />
 						<InfoBox />
+						
 						{/* <TheCounsil /> */}
 						<Footer />
 					</main>
