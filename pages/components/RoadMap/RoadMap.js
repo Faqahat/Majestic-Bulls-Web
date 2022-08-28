@@ -27,22 +27,25 @@ export default function Tale() {
 						1. NFT Collection
 					</h2>
 					<ul className="space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
-						<li className="font-light font-nexa text-black text-base md:text-2xl 2xl:text-[30px]">
-							- Exclusive 3D Generated NFT Collection
+						<li className="font-light font-nexa text-black text-base  text-[16px]">
+						- The Majestic Bulls NFT Collection of XXXX Distinct NFTS is our Project.
 						</li>
-						<li className="font-light font-nexa text-black text-base md:text-2xl 2xl:text-[30px]">
-							- Exclusive 3D Generated NFT Collection
+						<li className="font-light font-nexa text-black text-base  text-[16px]">
+						- TMBs are built on Ethereum Blockchain and To be Listed on OpenSea.
 						</li>
-						<li className="font-light font-nexa text-black text-base md:text-2xl 2xl:text-[30px]">
-							- Exclusive 3D Generated NFT Collection
+						<li className="font-light font-nexa text-black text-base  text-[16px]">
+						- Holding TMBs gives you a ticket into our Majestic Bulls Community
+						</li>
+						<li className="font-light font-nexa text-black text-base  text-[16px]">
+						- TMBs come with a lot of Future Utilities.
 						</li>
 					</ul>
 				</div>
 			</section>
-			<p className="font-light font-nexa text-black underline text-2xl lg:text-[35px] mb-10 xl:mb-16 text-center decoration-1 underline-offset-8">
+			<p className="font-light font-nexa text-black underline text-2xl lg:text-[35px] pt-6 mb-[-13px] md:mb-10 xl:mb-16 text-center decoration-1 underline-offset-8">
 				Previews
 			</p>
-			<div className="w-[50%] ml-[23%] pb-10">
+			<div className="w-[90%] md:w-[50%] ml-[5%] md:ml-[23%] pb-10">
 				<div>
 					<div className="flex justify-center items-center ">
 						{hasWindow &&
