@@ -1,64 +1,74 @@
-
 @import 'tailwindcss/base';
 
 html {
-    @apply scroll-smooth;
-  }
-  
-  .text-link {
-    @apply font-pt-mono leading-loose xl:leading-[45px] text-xl md:text-2xl 2xl:!text-xl desktop:text-lg text-black font-normal p-3 border border-transparent;
-  }
-  
+	@apply scroll-smooth;
+}
+
+.text-link {
+	@apply font-pt-mono leading-loose xl:leading-[45px] text-xl md:text-2xl 2xl:!text-xl desktop:text-lg text-black font-normal p-3 border border-transparent;
+}
+
 .text-link.active {
-    @apply border-black;
-  }
-  
-  .navbar {
-    @apply desktop:max-w-7xl w-full flex flex-col items-center justify-center desktop:grid grid-cols-[1fr,max-content] gap-6 2xl:gap-14 absolute desktop:static top-full left-0 right-0 bg-white z-[300] pt-0 pb-5 lg:py-24 desktop:py-0 shadow-xl desktop:shadow-none opacity-0 desktop:opacity-100 invisible desktop:visible max-h-0 desktop:max-h-full transform scale-y-0 desktop:transform-none origin-top transition-all duration-300 overflow-auto desktop:overflow-visible;
-  }
-  .navbar-active {
-    @apply max-h-screen min-h-[500px] desktop:min-h-full h-[calc(100vh-98px)] desktop:h-auto opacity-100 visible transform scale-y-100 desktop:overflow-visible;
-  }
-  /* ~~~~~~~~~~~~shadows~~~~~~~~~~~ */
-  .shadow-normal {
-    box-shadow: -3px 3px 6px #000;
-  }
-  input[type="radio"]:checked + label {
-    @apply bg-[#006904] text-white;
-  }
-  
-  /* customize scrollbar css */
-  #scrollbar-custom::-webkit-scrollbar {
-    @apply w-2.5 md:w-5 bg-black;
-  }
-  
-  #scrollbar-custom::-webkit-scrollbar:horizontal {
-    @apply h-2.5 md:h-5;
-  }
-  
-  #scrollbar-custom::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 240, 240, 0.736);
-  }
-  
-  /* [POPUP BOX] */
-  .popup-box {
-    @apply opacity-0 invisible pointer-events-none transition-all duration-200;
-  }
-  
-  .popup-box-wrap {
-    @apply transform scale-0 transition-all duration-300;
-  }
-  
-  .popup-box.show-popup {
-    @apply opacity-100 visible pointer-events-auto;
-  }
-  
-  .popup-box.show-popup .popup-box-wrap {
-    @apply scale-100;
-  }
-  
-  .tns-ovh {
-    @apply overflow-visible;
-  }
+	@apply border-black;
+}
+
+.navbar {
+	@apply desktop:max-w-7xl w-full flex flex-col items-center justify-center desktop:grid grid-cols-[1fr,max-content] gap-6 2xl:gap-14 absolute desktop:static top-full left-0 right-0 bg-white z-[300] pt-0 pb-5 lg:py-24 desktop:py-0 shadow-xl desktop:shadow-none opacity-0 desktop:opacity-100 invisible desktop:visible max-h-0 desktop:max-h-full transform scale-y-0 desktop:transform-none origin-top transition-all duration-300 overflow-auto desktop:overflow-visible;
+}
+.navbar-active {
+	@apply max-h-screen min-h-[500px] desktop:min-h-full h-[calc(100vh-98px)] desktop:h-auto opacity-100 visible transform scale-y-100 desktop:overflow-visible;
+}
+/* ~~~~~~~~~~~~shadows~~~~~~~~~~~ */
+.shadow-normal {
+	box-shadow: -3px 3px 6px #000;
+}
+input[type='radio']:checked + label {
+	@apply bg-[#006904] text-white;
+}
+
+/* customize scrollbar css */
+#scrollbar-custom::-webkit-scrollbar {
+	@apply w-2.5 md:w-5 bg-black;
+}
+
+#scrollbar-custom::-webkit-scrollbar:horizontal {
+	@apply h-2.5 md:h-5;
+}
+
+#scrollbar-custom::-webkit-scrollbar-thumb {
+	background-color: rgba(255, 240, 240, 0.736);
+}
+
+/* [POPUP BOX] */
+.popup-box {
+	@apply opacity-0 invisible pointer-events-none transition-all duration-200;
+}
+
+.popup-box-wrap {
+	@apply transform scale-0 transition-all duration-300;
+}
+
+.popup-box.show-popup {
+	@apply opacity-100 visible pointer-events-auto;
+}
+
+.popup-box.show-popup .popup-box-wrap {
+	@apply scale-100;
+}
+
+.tns-ovh {
+	@apply overflow-visible;
+}
+@font-face {
+	font-family: 'Ancient';
+	src: url('/fonts/Ancient.woff2') format('woff2'),
+		url('/fonts/Ancient.woff') format('woff');
+}
+@font-face {
+	font-family: 'Abreto';
+	src: url('/fonts/Abreto.woff2') format('woff2'),
+		url('/fonts/Abreto.woff') format('woff');
+}
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';

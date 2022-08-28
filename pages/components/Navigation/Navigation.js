@@ -1,32 +1,30 @@
 import Image from 'next/image'
-import React , { useState } from "react";
+import React, { useState } from 'react'
 import HeaderLogo from '../../img/logo.png'
 
 function Navigation() {
-	const [intro, setIntro] = useState(false);
-	const [tale, setTale] = useState(false);
-	const [majestic, setMajestic] = useState(false);
-	const [alpha, setAplha] = useState(false);
-	const [roadmap, setRoadmap] = useState(false);
-	const [council, setCouncil] = useState(false);
-	
+	const [intro, setIntro] = useState(true)
+	const [tale, setTale] = useState(false)
+	const [majestic, setMajestic] = useState(false)
+	const [alpha, setAplha] = useState(false)
+	const [roadmap, setRoadmap] = useState(false)
+	const [council, setCouncil] = useState(false)
+
 	return (
 		<nav
 			id="navbar"
-			className="px-5 w-full mx-auto h-[100px] xl:h-[120px] fixed bg-white border-b-2 border-black/20 xl:border-none z-50"
+			className="px-5 w-full mx-auto h-[100px] xl:h-[120px] fixed bg-white border-b-2 border-black/20 xl:border-none z-50 drop-shadow-lg"
 		>
 			<div className="max-w-[1820px] w-full mx-auto flex items-center justify-between gap-[4rem] h-full">
 				<a href="#" className="flex items-center gap-1 h-full relative">
-					
 					<Image
 						src={HeaderLogo}
 						alt="logo"
-						width="90" 
-						height="90" 
-						
+						width="90"
+						height="90"
 						className="w-16 md:w-20 lg:w-24 2xl:w-auto h-auto object-contain"
 					/>
-					
+
 					<span className="text-lg md:text-1xl lg:text-2xl 2xl:text-[28px] text-link font-bold text-black whitespace-nowrap">
 						Majestic Bulls
 					</span>
@@ -35,38 +33,130 @@ function Navigation() {
 				<div className="navbar w-auto">
 					<ul className="flex flex-col desktop:flex-row items-center justify-center desktop:justify-between gap-4 w-full">
 						<li>
-							<a href="#intro"  className={intro ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" } onClick={()=>{setIntro(true);setTale(false);setMajestic(false);setAplha(false);setRoadmap(false);setCouncil(false)}}>
+							<a
+								href="#intro"
+								className={
+									intro
+										? 'text-link active'
+										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+								}
+								onClick={() => {
+									setIntro(true)
+									setTale(false)
+									setMajestic(false)
+									setAplha(false)
+									setRoadmap(false)
+									setCouncil(false)
+								}}
+							>
 								<span className="font-bold">The </span> Intro
 							</a>
 						</li>
 						<li>
-							<a href="#tale" className={tale ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" }  onClick={()=>{setIntro(false);setTale(true);setMajestic(false);setAplha(false);setRoadmap(false);setCouncil(false)}}>
+							<a
+								href="#tale"
+								className={
+									tale
+										? 'text-link active'
+										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+								}
+								onClick={() => {
+									setIntro(false)
+									setTale(true)
+									setMajestic(false)
+									setAplha(false)
+									setRoadmap(false)
+									setCouncil(false)
+								}}
+							>
 								<span className="font-bold"> The </span> Tale
 							</a>
 						</li>
 						<li>
-							<a href="#majestic" className={majestic ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" } onClick={()=>{setIntro(false);setTale(false);setMajestic(true);setAplha(false);setRoadmap(false);setCouncil(false)}}>
+							<a
+								href="#majestic"
+								className={
+									majestic
+										? 'text-link active'
+										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+								}
+								onClick={() => {
+									setIntro(false)
+									setTale(false)
+									setMajestic(true)
+									setAplha(false)
+									setRoadmap(false)
+									setCouncil(false)
+								}}
+							>
 								<span className="font-bold"> The </span>Majestics
 							</a>
 						</li>
 						<li>
-							<a href="#alpha" className={alpha ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(true);setRoadmap(false);setCouncil(false)}}>
+							<a
+								href="#alpha"
+								className={
+									alpha
+										? 'text-link active'
+										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+								}
+								onClick={() => {
+									setIntro(false)
+									setTale(false)
+									setMajestic(false)
+									setAplha(true)
+									setRoadmap(false)
+									setCouncil(false)
+								}}
+							>
 								<span className="font-bold"> The </span> Alphas
 							</a>
 						</li>
 						<li>
-							<a href="#roadmap" className={roadmap ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(false);setRoadmap(true);setCouncil(false)}}>
+							<a
+								href="#roadmap"
+								className={
+									roadmap
+										? 'text-link active'
+										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+								}
+								onClick={() => {
+									setIntro(false)
+									setTale(false)
+									setMajestic(false)
+									setAplha(false)
+									setRoadmap(true)
+									setCouncil(false)
+								}}
+							>
 								<span className="font-bold"> The </span> Roadmap
 							</a>
 						</li>
 						<li>
-							<a href="#council" className={council ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(false);setRoadmap(false);setCouncil(true)}}>
+							<a
+								href="#council"
+								className={
+									council
+										? 'text-link active'
+										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+								}
+								onClick={() => {
+									setIntro(false)
+									setTale(false)
+									setMajestic(false)
+									setAplha(false)
+									setRoadmap(false)
+									setCouncil(true)
+								}}
+							>
 								<span className="font-bold"> The </span>Council
 							</a>
 						</li>
 					</ul>
 					<a
-						href="https://twitter.com/Majestic_Bull" target="_blank" rel="noreferrer"
+						href="https://twitter.com/Majestic_Bull"
+						target="_blank"
+						rel="noreferrer"
 						className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:-translate-y-1 hover:scale-110 "
 					>
 						<svg
