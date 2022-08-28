@@ -17,7 +17,7 @@ export default function TheDesign() {
 			<div className="w-full px-5 sm:px-12 2xl:px-[40px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
 					<h2 className="text-3xl sm:text-[45px] text-black leading-[70px] font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-						{'//'} <span className="font-bold text-black">The</span> Design
+						{'//'} <span className="font-bold text-black">The</span> Art
 					</h2>
 					<Image
 						src={skull}
@@ -52,8 +52,8 @@ export default function TheDesign() {
 									width="40"
 								/>
 							</button>
-							<p className="text-white text-[15px]  md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
-								Horns
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+								Weapons
 							</p>
 						</div>
 
@@ -68,7 +68,7 @@ export default function TheDesign() {
 									width="30"
 								/>
 							</button>
-							<p className="text-white text-[15px]  md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
 								Eyes
 							</p>
 						</div>
@@ -84,7 +84,7 @@ export default function TheDesign() {
 									width="30"
 								/>
 							</button>
-							<p className="text-white text-[15px]  md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
 								Accessories
 							</p>
 						</div>
@@ -100,7 +100,7 @@ export default function TheDesign() {
 									width="30"
 								/>
 							</button>
-							<p className="text-white text-[15px]  md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
 								Backgrounds
 							</p>
 						</div>
@@ -116,7 +116,7 @@ export default function TheDesign() {
 									width="40"
 								/>
 							</button>
-							<p className="text-white text-[15px]  md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
 								Bodies
 							</p>
 						</div>
@@ -132,7 +132,7 @@ export default function TheDesign() {
 									width="40"
 								/>
 							</button>
-							<p className="text-white text-[15px]  md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
 								Horns
 							</p>
 						</div>

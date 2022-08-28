@@ -29,18 +29,20 @@ function TheMajesticOnes() {
 			id="majestic"
 		>
 			<div className="max-w-[1344px] w-full md:px-5 mx-auto text-center mb-12 md:mb-20">
-				<div className="flex items-center md:items-end justify-center  mb-7 md:mb-16">
-					<h2 className="text-2xl md:text-[35px] text-black  font-light sm:pt-14 font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+				<div className="flex items-center  justify-center  mb-7 md:mb-16">
+					<h2 className="text-xl md:text-[35px] text-black  font-light mt-[46px] md:mt-[37px] font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 						{'//'} <span className="font-bold text-black">The</span> Majestic
 						Ones
 					</h2>
-					<span className="h-32 w-24 relative ">
+					<span className="ml-[-13px]  ">
 						<Image
 							src={img_magestic_ones}
 							alt="img"
-							layout="fill" // required
-							objectFit="contain" // change to suit
-							className="mt-[25px]"
+							width="100"
+							height="100"
+							//layout="fill" // required
+							// objectFit="contain" // change to suit
+							// className="mt-[25px]"
 						/>
 					</span>
 				</div>

@@ -1,6 +1,6 @@
-import Image from 'next/image'
 //import bull_skull_footer from '@imgs/bull_skull_footer.png'
 import bull_skull_footer from '@imgs/bull (1).png'
+import Image from 'next/image'
 
 function Footer() {
 	return (
@@ -40,7 +40,7 @@ function Footer() {
 									href="#thedesign"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
-									{'//'} <span className="font-bold">The</span> Design
+									{'//'} <span className="font-bold">The</span> Art
 								</a>
 							</li>
 							
@@ -126,7 +126,7 @@ function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className="">
+					<div className=" ml-[80%] md:ml-0">
 						<p className="font-nexa  text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
 							Social
 						</p>
