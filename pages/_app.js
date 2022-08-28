@@ -24,9 +24,9 @@ function LandingPage() {
 				<link
 					rel="icon"
 					type="image/x-icon"
-					href="static/bull_skull_footer.png"
+					href="static/favicon.png"
 				/>
-				<link rel="shortcut icon" href="/static/bull_skull_footer.png" />
+				<link rel="shortcut icon" href="/static/favicon.png" />
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
