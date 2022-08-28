@@ -122,17 +122,23 @@ function TheAlphas() {
 						</a>
 					</div>
 					<div className="flex justify-center mt-32">
-						<button className="bg-white md:max-w-[250px] md:w-full md:h-[60px] text-xl md:text-[30px] text-black font-bold font-nexa px-10 py-4 md:p-0 md:leading-[55px] flex justify-center items-center gap-3 hover:-translate-y-1 hover:scale-110 duration-300">
-							Join Club
-							<Image
-								src={img_arrow}
-								alt="arrow"
-								className="w-7 md:w-auto h-auto object-contain"
-								height="40"
-								width="40"
-							/>
-						</button>
+					<li className="flex items-center justify-center mb-5 md:mb-auto">
+					<a
+						href="#"
+						className="flex w-fit  items-center text-base text-black bg-white px-7 pt-3 pb-3 leading-normal sm:text-xl md:text-2xl 2xl:text-3xl font-nexa hover:-translate-y-1 hover:scale-110 duration-300"
+					>
+						<span className="text-xl mr-6 font-semibold ">Join Club</span>
+						<Image
+							src={img_arrow}
+							alt="img"
+							className="w-full aspect-video md:aspect-auto md:h-full object-cover md:object-right"
+							height="35"
+							width="35"
+						/>
+					</a>
+				</li>
 					</div>
+					
 				</div>
 			</div>
 		</section>

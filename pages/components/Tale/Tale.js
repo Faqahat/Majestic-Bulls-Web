@@ -12,6 +12,7 @@ function Tale() {
 				src={taleImg}
 				alt="img"
 				className="w-full aspect-video md:aspect-auto md:h-full object-cover md:object-right"
+				layout="responsive" objectFit="contain"
 			/>
 
 			<div className=" mt-[-9px] md:mt-[0px]  max-w-full lg:max-w-[554px] w-full bg-black ml-auto p-5 sm:p-[2rem] static lg:absolute  md:top-[1px] xl:top-[8rem]  right-20">
@@ -28,6 +29,7 @@ function Tale() {
 						width="50"
 					/>
 				</div>
+				
 				<br />
 				<p
 					className="font-Abreto text-white md:text-[16px] text-base leading-relaxed md:leading-[30px] font-light pr-3 md:pr-12  h-[380px] md:h-[380px] overflow-auto"
