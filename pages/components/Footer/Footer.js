@@ -54,20 +54,21 @@ function Footer() {
 							</li>
 							<li className="mb-4">
 								<a
-									href="#alpha"
-									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
-								>
-									{'//'} <span className="font-bold">The</span> Alphas{' '}
-								</a>
-							</li>
-							<li className="mb-4">
-								<a
 									href="#majestic"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Majestics Ones{' '}
 								</a>
 							</li>
+							<li className="mb-4">
+								<a
+									href="#alpha"
+									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
+								>
+									{'//'} <span className="font-bold">The</span> Alphas{' '}
+								</a>
+							</li>
+							
 							{/* <li className="mb-4">
 								<a
 									href="#"
@@ -80,16 +81,16 @@ function Footer() {
 					</div>
 					<div>
 						<p className="font-nexa  text-[25px] leading-[38px] text-[#5D5D5D] mb-4">
-							Links
+							NFT
 						</p>
 						<ul>
 							<li className="mb-4">
 								<a
-									href="#"
+									href="#infobox"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
 								>
 									{' '}
-									White Paper{' '}
+									Digest{' '}
 								</a>
 							</li>
 							<li className="mb-4">

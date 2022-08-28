@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 import img_alpha_png from '@imgs/alpha.png'
 import img_alpha_heading_png from '@imgs/alpha-heading.png'
-import img_coffee_png from '@imgs/coffee-cup.png'
-import img_online_learning from '@imgs/online-learning.png'
-import img_hoodie from '@imgs/hoodie.png'
-import img_bomber from '@imgs/bomb (1).png'
-import img_checklist from '@imgs/checklist.png'
+import img_coffee_png from '@imgs/aviation.png'
+import img_online_learning from '@imgs/discord.png'
+import img_hoodie from '@imgs/merchandise.png'
+import img_bomber from '@imgs/role-playing.png'
+import img_checklist from '@imgs/list.png'
 import img_arrow from '@imgs/arrow.png'
 function TheAlphas() {
 	return (
@@ -36,18 +36,9 @@ function TheAlphas() {
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
 					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-						Alpha Bulls Club is a group of TOP HODLRS.
+					Alpha Bulls are loyal Members of our community. With exclusive rights and privileges with a very limited number of Seats Only the Strongest and Loyal Bulls are Invited to Alpha Bulls Club.
 					</li>
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-						Alpha Group members get exclusive access to XYZ features.
-					</li>
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-						Alpha Bulls get free Starbucks Coupon On Every Alpha Session.
-					</li>
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-						12 Slots of Alpha Bulls Club are reserved for HODLRs of The Majestic
-						Ones.
-					</li>
+					
 				</ul>
 				<div>
 					<p className="text-3xl md:text-[30px] underline text-[#717171] font-light font-nexa underline-offset-2">
@@ -62,8 +53,8 @@ function TheAlphas() {
 								height="50"
 								width="50"
 							/>
-							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
-								Free Coffees (i)
+							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
+							Governing Rights 
 							</p>
 						</div>
 						<div className="flex items-center gap-4">
@@ -74,8 +65,8 @@ function TheAlphas() {
 								height="50"
 								width="50"
 							/>
-							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
-								Exclusive Sessions
+							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
+							Exclusive AMA Sessions
 							</p>
 						</div>
 						<div className="flex items-center gap-4">
@@ -86,8 +77,8 @@ function TheAlphas() {
 								height="50"
 								width="50"
 							/>
-							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
-								Exclusive Merch
+							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
+							Exclusive Alpha Merch
 							</p>
 						</div>
 						<div className="flex items-center gap-4">
@@ -98,8 +89,8 @@ function TheAlphas() {
 								height="50"
 								width="50"
 							/>
-							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
-								Airdrop of Utility Token
+							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
+							Special Discord Role
 							</p>
 						</div>
 						<div className="flex items-center gap-4">
@@ -110,13 +101,13 @@ function TheAlphas() {
 								height="50"
 								width="50"
 							/>
-							<p className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white">
-								W/L in Future Projects
+							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
+							Guaranteed Whitelist 
 							</p>
 						</div>
 						<a
 							href="#"
-							className="text-xl xl:text-[22px] font-nexa font-light leading-9 text-white underline inline-block"
+							className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white underline inline-block"
 						>
 							And more…
 						</a>

@@ -52,7 +52,7 @@ function TheMajesticOnes() {
 					exquisite. There are total of 12 TMOS which are minted reandomly.{' '}
 					<br />
 					<span className="color">
-						read more in our <strong>digest</strong>..
+						read more in our <a href="#infobox"> <strong > digest</strong> </a>..
 					</span>
 				</p>
 			</div>

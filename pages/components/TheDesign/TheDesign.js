@@ -31,8 +31,8 @@ export default function TheDesign() {
 					<li className="text-black font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						The NFT complements the unique chemistry of our beasts and makes the
 						perfect specimen. A total of 06 rare attributes were selected. Each
-						attribute has, on average, 12 instances that accumulate to 132
-						distinct features, making up an NFT. Characteristics like Head,
+						attribute has, on average, 16 instances that accumulate to 96
+						distinct features, making up an NFT. Characteristics like Body,
 						Horns, Accessories, Backgrounds, etc., make up most of the NFT.
 						These attributes and their chemistry with each other define the
 						worth of the specific art. Rare NFTs have considerably perfect
@@ -52,14 +52,14 @@ export default function TheDesign() {
 									width="40"
 								/>
 							</button>
-							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[20px] pb-3">
 								Weapons
 							</p>
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">25</span>
+								<span className="md:mr-4">12</span>
 								<Image
 									src={EyeIcon}
 									alt="arrow"
@@ -68,14 +68,14 @@ export default function TheDesign() {
 									width="30"
 								/>
 							</button>
-							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[40px] pb-3">
 								Eyes
 							</p>
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">25</span>
+								<span className="md:mr-4">20</span>
 								<Image
 									src={AccessoriesIcon}
 									alt="arrow"
@@ -91,7 +91,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className=" h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">25</span>
+								<span className="md:mr-4">12</span>
 								<Image
 									src={BackgroundsIcon}
 									alt="arrow"
@@ -107,7 +107,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">25</span>
+								<span className="md:mr-4">15</span>
 								<Image
 									src={BodiesIcon}
 									alt="arrow"
@@ -116,14 +116,14 @@ export default function TheDesign() {
 									width="40"
 								/>
 							</button>
-							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[30px] pb-3">
 								Bodies
 							</p>
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="   h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">25</span>
+								<span className="md:mr-4">12</span>
 								<Image
 									src={HornsIcon}
 									alt="arrow"
@@ -132,7 +132,7 @@ export default function TheDesign() {
 									width="40"
 								/>
 							</button>
-							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[10px] pb-3">
+							<p className="text-white text-[10px] md:text-[15px] font-pt-mono md:text-auto mt-[-25px] md:mt-[-27px] text-lg md:mr-[30px] pb-3">
 								Horns
 							</p>
 						</div>
