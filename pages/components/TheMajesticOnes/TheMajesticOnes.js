@@ -23,7 +23,7 @@ import Modal from '../Modal'
 function TheMajesticOnes() {
 	const [showModal, setShowModal] = useState(false)
 	const [imgName, setImgName] = useState()
-	console.log(imgName)
+
 	return (
 		<section
 			className="mt-12  max-w-[1750px] w-full px-5 mx-auto mb-20 md:mb-[170px] scroll-mt-28 xl:scroll-mt-40"
@@ -297,7 +297,7 @@ function TheMajesticOnes() {
 					</a>
 				</div>
 				{showModal && <Modal setOpenModal={setShowModal} />}
-				
+
 				{/* {showModal ? (
 					<>
 						<div
