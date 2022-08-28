@@ -13,7 +13,7 @@ export default function TheDesign() {
 	
 	return (
 	 
-		<section id="thedesign" className=" md:pt-[40px] scroll-mt-28 xl:scroll-mt-40 w-full bg-white grid grid-cols-1 xl:grid-cols-[minmax(400px,810px),minmax(450px,1140px)]">
+		<section id="thedesign" className="  scroll-mt-28 xl:scroll-mt-40 w-full bg-white grid grid-cols-1 xl:grid-cols-[minmax(400px,810px),minmax(450px,1140px)]">
 			
             <div className="w-full px-5 sm:px-12 2xl:px-[40px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
@@ -132,7 +132,7 @@ export default function TheDesign() {
 				className="w-full lg:aspect-video xl:aspect-auto xl:h-full  "
 				//height="300"
 				//width="700"
-				width="75%" height="75%" layout="responsive" objectFit="contain"
+				width="75%" height="75%" layout="responsive" 
 			/>
 			</div>
 			

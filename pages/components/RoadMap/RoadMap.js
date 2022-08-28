@@ -54,7 +54,7 @@ export default function Tale() {
 									>
 										<path d="M24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13V38.13zM48 432L336 256L48 80V432z" />
 									</svg> */}
-								<video  src={require('../../img/vid-1.mp4')} type="video/mp4"    autoPlay muted/>
+								<video  src={require('../../img/vid-1.mp4')} type="video/mp4"    autoPlay />
 								</button>
 							</div>
 						</div>
@@ -75,7 +75,7 @@ export default function Tale() {
 									>
 										<path d="M24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13V38.13zM48 432L336 256L48 80V432z" />
 									</svg> */}
-									<video  src={require('../../img/vid-2.mp4')} type="video/mp4"    autoPlay muted/>
+									<video  src={require('../../img/vid-2.mp4')} type="video/mp4"    autoPlay />
 								</button>
 							</div>
 						</div>
@@ -86,9 +86,9 @@ export default function Tale() {
 
 
 				 <div className="flex items-center gap-10 sm:gap-20 justify-end mt-10 md:mt-12 pr-4 xl:pr-10">
-					<button className="nft-back p-2 disabled:opacity-40" onClick={()=>{setSlide1(false);setSlide2(true)}}>
+					<button className="nft-back p-2 disabled:opacity-40 " onClick={()=>{setSlide1(false);setSlide2(true)}}>
 						<svg
-							className="sm:w-10 w-6 h-6 sm:h-10 fill-current"
+							className="sm:w-10 w-6 h-6 sm:h-10 fill-current hover:border rounded-full border-black hover:p-1 p-1 "
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 320 512"
 							
@@ -98,7 +98,7 @@ export default function Tale() {
 					</button>
 					<button className="nft-next p-2 disabled:opacity-40" onClick={()=>{setSlide1(true);setSlide2(false)}}>
 						<svg
-							className="sm:w-10 w-6 h-6 sm:h-10 fill-current"
+							className="sm:w-10 w-6 h-6 sm:h-10 fill-current hover:border rounded-full border-black hover:p-1 p-1"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 320 512"
 						>

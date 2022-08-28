@@ -2,7 +2,7 @@ import Image from 'next/image'
 import bull_skull_footer from '@imgs/bull_skull_footer.png'
 function Footer() {
 	return (
-		<footer className="bg-black w-full px-5 pb-10 pt-[70px] mt-28">
+		<footer className="bg-black w-full px-5 pb-10 pt-[70px] ">
 			<div className="max-w-[1670px] w-full mx-auto grid grid-cols-1 xl:grid-cols-[minmax(150px,460px),minmax(700px,1fr)] gap-9 2xl:gap-52 gap-y-12">
 				<div className="w-full text-center">
 					<div className="flex justify-center ">
