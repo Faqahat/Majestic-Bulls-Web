@@ -12,12 +12,13 @@ import b8 from '@imgs/b-8.png'
 import b9 from '@imgs/b-9.png'
 import img_magestic_ones from '@imgs/fire.png'
 import Image from 'next/image'
-import Link from 'next/link'
+//import Link from 'next/link'
 import React, { useState } from 'react'
+import Modal from '../Modal'
 
-import af from '../../img/arrow_forward_go_back_left_icon.png'
-import ar from '../../img/arrow_forward_go_next_right_icon.png'
-import opensea from '../../img/opensea_logo_icon.png'
+// import af from '../../img/arrow_forward_go_back_left_icon.png'
+// import ar from '../../img/arrow_forward_go_next_right_icon.png'
+// import opensea from '../../img/opensea_logo_icon.png'
 
 function TheMajesticOnes() {
 	const [showModal, setShowModal] = useState(false)
@@ -295,8 +296,9 @@ function TheMajesticOnes() {
 						/>
 					</a>
 				</div>
-
-				{showModal ? (
+				{showModal && <Modal setOpenModal={setShowModal} />}
+				
+				{/* {showModal ? (
 					<>
 						<div
 							className="` absolute w-full  h-screen overflow-auto bg-black/70 z-50 p-5 md:p-10 grid items-center justify-center"
@@ -383,7 +385,7 @@ function TheMajesticOnes() {
 							</div>
 						</div>
 					</>
-				) : null}
+				) : null} */}
 			</div>
 		</section>
 	)

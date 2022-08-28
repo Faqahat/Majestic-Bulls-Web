@@ -18,7 +18,7 @@ function Navigation() {
 		<>
 		<nav
 			id="navbar"
-			className="pl-0 z-10 px-5 w-full mx-auto h-[100px] xl:h-[120px] fixed bg-white border-b-2 border-black/20 xl:border-none z-50 drop-shadow-lg"
+			className="pl-0 z-50 px-5 w-full mx-auto h-[100px] xl:h-[120px] fixed bg-white border-b-2 border-black/20 xl:border-none  drop-shadow-lg"
 		>
 			<div className="max-w-[1820px] w-full mx-auto flex items-center justify-between gap-[4rem] h-full">
 				<a href="#" className="flex items-center gap-1 h-full relative">
@@ -184,7 +184,7 @@ function Navigation() {
  
 					:
 					
-					<div className="absolute mt-[112%] md:mt-[28%] w-full">
+					<div className="absolute z-[-1] mt-[112%] md:mt-[28%] w-full">
 					<ul className="items-center pt-7 pb-7 bg-white text-center justify-center desktop:justify-between gap-4 w-full">
 						<li className="h-14" >
 							<a
