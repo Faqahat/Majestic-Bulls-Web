@@ -16,9 +16,7 @@ function Header() {
 				onContextMenu={e => e.preventDefault()}
 				className="mt-[100px] scroll-mt-28 xl:scroll-mt-40 relative"
 				onClick={() => {
-					console.log('clicked video')
 					if (playing) {
-						console.log('pauseing video')
 						return setPlaying(false)
 					}
 
