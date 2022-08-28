@@ -32,7 +32,7 @@ function Tale() {
 				
 				<br />
 				<p
-					className="font-Abreto text-white md:text-[16px] text-base leading-relaxed md:leading-[30px] font-light pr-3 md:pr-12  h-[380px] md:h-[380px] overflow-auto"
+					className="text-justify font-Abreto text-white md:text-[16px] text-base leading-relaxed md:leading-[30px] font-light pr-3 md:pr-12  h-[380px] md:h-[380px] overflow-auto"
 					id="scrollbar-custom"
 				>
 					In the kingdom of Bullsmania, deep inside the walls of the castle

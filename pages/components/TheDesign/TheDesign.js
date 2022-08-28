@@ -28,7 +28,7 @@ export default function TheDesign() {
 					/>
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
-					<li className="text-black font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
+					<li className="text-justify text-black font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						The NFT complements the unique chemistry of our beasts and makes the
 						perfect specimen. A total of 06 rare attributes were selected. Each
 						attribute has, on average, 16 instances that accumulate to 96

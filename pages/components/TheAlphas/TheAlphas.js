@@ -35,7 +35,7 @@ function TheAlphas() {
 					/>
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
-					<li className="text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
+					<li className="text-justify text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 					Alpha Bulls are loyal Members of our community. With exclusive rights and privileges with a very limited number of Seats Only the Strongest and Loyal Bulls are Invited to Alpha Bulls Club.
 					</li>
 					

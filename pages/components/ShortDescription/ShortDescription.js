@@ -20,7 +20,7 @@ function ShortDescription() {
 					className="" // just an example
 				/>
 			</div>
-			<p className=" sm:text-xs md:text-xl mt-[20px]  md:mb-10  text-white md:leading-normal max-w-[1410px] w-full px-5 mx-auto  pb-12 pt-6 font-Abreto text-left">
+			<p className="text-justify flex sm:text-xs md:text-xl mt-[20px]  md:mb-10  text-white md:leading-normal max-w-[1410px] w-full px-5 mx-auto  pb-12 pt-6 font-Abreto ">
 				In the kingdom of Bullsmania, deep inside the walls of the castle
 				surrounded by huge forests, reside the creatures of wonder, the forces
 				of unnatural power, and the apex predator at the summit of the food
