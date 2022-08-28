@@ -12,16 +12,16 @@ function InfoBox() {
 				layout="fill"
 			/>
 
-			<h1 className="relative text-4xl font-light text-center md:text-6xl 2xl:text-6xl mb-[130px]">
+			<h1 className="relative text-3xl font-light text-center md:text-6xl 2xl:text-6xl mb-[130px]">
 				<strong className="font-extrabold font-Abreto">Download Digest</strong>{' '}
 				<br />
 				<span className="text-2xl"> Version 1.0 </span>
 			</h1>
-			<ul className="relative flex  items-center justify-center gap-4 flex-wrap sm:gap-7 xl:gap-16">
-				<li>
+			<ul className="relative   items-center justify-center gap-4 flex-wrap sm:gap-7 xl:gap-16 sm:block text-center md:flex ">
+				<li className="flex items-center justify-center mb-5 md:mb-auto">
 					<a
 						href="#"
-						className="flex w-fit items-center text-base text-black bg-white px-7 pt-3 pb-3 leading-normal sm:text-xl md:text-2xl 2xl:text-3xl font-nexa hover:-translate-y-1 hover:scale-110 duration-300"
+						className="flex w-fit  items-center text-base text-black bg-white px-7 pt-3 pb-3 leading-normal sm:text-xl md:text-2xl 2xl:text-3xl font-nexa hover:-translate-y-1 hover:scale-110 duration-300"
 					>
 						<span className="text-xl mr-6 font-semibold ">Download</span>
 						<Image
@@ -33,13 +33,13 @@ function InfoBox() {
 						/>
 					</a>
 				</li>
-				<li className="text-base sm:text-xl md:text-3xl font-bold font-nexa">
+				<li className="flex items-center justify-center text-base sm:text-xl md:text-3xl font-bold font-nexa mb-5 md:mb-auto">
 					or
 				</li>
 				<li>
 					<a
 						href="#"
-						className="text-base sm:text-xl md:text-2xl xl:text-3xl font-light font-nexa underline"
+						className="text-base sm:text-xl md:text-2xl xl:text-3xl font-light font-nexa underline mb-5 md:mb-auto"
 					>
 						View Online
 					</a>

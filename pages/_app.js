@@ -47,8 +47,8 @@ function LandingPage() {
 			</Head>
 			<div className="overflow-hidden">
 				<Navigation />
+				<Hero />
 				<div id="content">
-					<Hero />
 					<main>
 						{/*<Minting />*/}
 						<ShortDescription />
@@ -58,7 +58,7 @@ function LandingPage() {
 						<TheAlphas />
 						<RoadMap />
 						<InfoBox />
-						
+
 						{/* <TheCounsil /> */}
 						<Footer />
 					</main>
