@@ -44,6 +44,8 @@ export default function Modal({ setOpenModal }) {
 											src={b2}
 											alt="Thunder"
 											className="object-contain w-3/5 sm:w-full block mx-auto sm:mx-0"
+                                            width="500"
+                                            height="500"
 										/>
 									</div>
 								</div>
@@ -58,12 +60,14 @@ export default function Modal({ setOpenModal }) {
 										</p>
 									</div>
 									<div className="max-w-[300px] w-full">
-										<button className="bg-white flex items-center justify-between gap-3 text-black text-lg md:text-2xl font-bold font-nexa py-2 px-4 w-full border border-[#707070] shadow-normal hover:shadow-none transition-all duration-300">
+										<button className="bg-white  flex items-center justify-between gap-2 text-black text-[16px] md:text-xl font-bold font-nexa py-2 px-4 w-full border border-[#707070] shadow-normal hover:shadow-none transition-all duration-300">
 											View on OpenSea
 											<Image
 												src={opensea}
 												alt=""
 												className="w-8 h-auto object-contain"
+                                                width="50"
+                                                height="50"
 											/>
 										</button>
 									</div>
