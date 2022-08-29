@@ -31,7 +31,7 @@ export default function TheDesign() {
 					<li className="text-justify text-black font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
 						The NFT complements the unique chemistry of our beasts and makes the
 						perfect specimen. A total of 06 rare attributes were selected. Each
-						attribute has, on average, 16 instances that accumulate to 96
+						attribute has, on average, 59 instances that accumulate to 352
 						distinct features, making up an NFT. Characteristics like Body,
 						Horns, Accessories, Backgrounds, etc., make up most of the NFT.
 						These attributes and their chemistry with each other define the
@@ -43,7 +43,7 @@ export default function TheDesign() {
 					<div className="grid grid-cols-3 sm:grid-cols-3 gap-4 sm:gap-6 xl:gap-10 w-full mt-5">
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="   h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">25</span>
+								<span className="md:mr-4">28</span>
 								<Image
 									src={WeaponIcon}
 									alt="arrow"
@@ -59,7 +59,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">12</span>
+								<span className="md:mr-4">31</span>
 								<Image
 									src={EyeIcon}
 									alt="arrow"
@@ -75,7 +75,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">20</span>
+								<span className="md:mr-4">73</span>
 								<Image
 									src={AccessoriesIcon}
 									alt="arrow"
@@ -91,7 +91,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className=" h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">12</span>
+								<span className="md:mr-4">39</span>
 								<Image
 									src={BackgroundsIcon}
 									alt="arrow"
@@ -107,7 +107,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">15</span>
+								<span className="md:mr-4">150</span>
 								<Image
 									src={BodiesIcon}
 									alt="arrow"
@@ -123,7 +123,7 @@ export default function TheDesign() {
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
 							<button className="   h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">12</span>
+								<span className="md:mr-4">31</span>
 								<Image
 									src={HornsIcon}
 									alt="arrow"
