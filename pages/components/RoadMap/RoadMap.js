@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import filledDot from '@imgs/filledDot.png'
-import Dot from '@imgs/Dot.png'
+import Dot from '@imgs/dot.png'
 import Image from 'next/image'
 import ReactPlayer from 'react-player'
 export default function Tale() {
