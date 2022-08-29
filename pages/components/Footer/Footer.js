@@ -1,7 +1,7 @@
 //import bull_skull_footer from '@imgs/bull_skull_footer.png'
 import bull_skull_footer from '@imgs/bull (1).png'
 import Image from 'next/image'
-
+import { Tooltip } from '@nextui-org/react'
 function Footer() {
 	return (
 		<footer className="bg-black w-full px-5 pb-10 pt-[70px] ">
@@ -12,8 +12,8 @@ function Footer() {
 							src={bull_skull_footer}
 							alt="footer-logo"
 							className="w-auto h-auto object-contain block mx-auto invert"
-							width="120" 
-							height="120" 
+							width="120"
+							height="120"
 						/>
 					</div>
 
@@ -43,7 +43,7 @@ function Footer() {
 									{'//'} <span className="font-bold">The</span> Art
 								</a>
 							</li>
-							
+
 							<li className="mb-4">
 								<a
 									href="#tale"
@@ -68,7 +68,7 @@ function Footer() {
 									{'//'} <span className="font-bold">The</span> Alphas{' '}
 								</a>
 							</li>
-							
+
 							{/* <li className="mb-4">
 								<a
 									href="#"
@@ -94,36 +94,57 @@ function Footer() {
 								</a>
 							</li>
 							<li className="mb-4">
-								<a
-									href="#"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+								<Tooltip
+									content={'Coming Soon'}
+									trigger="click"
+									rounded={false}
+									placement={'top'}
 								>
-									Open Sea
-								</a>
+									<span className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]">
+										Open Sea
+									</span>
+								</Tooltip>
+							</li>
+
+							<li className="mb-4">
+								<Tooltip
+									content={'Coming Soon'}
+									trigger="click"
+									rounded={false}
+									placement={'top'}
+								>
+									<span className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]">
+										Ether Scan{' '}
+									</span>
+								</Tooltip>
+							</li>
+
+							<li className="mb-4">
+								<Tooltip
+									content={'Coming Soon'}
+									trigger="click"
+									rounded={false}
+									placement={'top'}
+								>
+									<span className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]">
+										Rarity Sniper{' '}
+									</span>
+								</Tooltip>
 							</li>
 							<li className="mb-4">
-								<a
-									href="#"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+								<Tooltip
+									content={'Coming Soon'}
+									trigger="click"
+									rounded={false}
+									placement={'top'}
 								>
-									Contract{' '}
-								</a>
-							</li>
-							<li className="mb-4">
-								<a
-									href="#majestic"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
-								>
-									Rarity Sniper{' '}
-								</a>
-							</li>
-							<li className="mb-4">
-								<a
-									href="#"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
-								>
-									Looks Rare{' '}
-								</a>
+									<span
+										href="#"
+										className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+									>
+										Looks Rare{' '}
+									</span>
+								</Tooltip>
 							</li>
 						</ul>
 					</div>
@@ -134,7 +155,9 @@ function Footer() {
 						<ul>
 							<li className="mb-10">
 								<a
-									href="https://discord.gg/sMegyjpt6b" target="_blank" rel="noreferrer"
+									href="https://discord.gg/sMegyjpt6b"
+									target="_blank"
+									rel="noreferrer"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#406da2]"
 								>
 									{' '}
@@ -143,15 +166,19 @@ function Footer() {
 							</li>
 							<li className="mb-10">
 								<a
-									href="https://twitter.com/Majestic_Bull" target="_blank" rel="noreferrer"
-									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#00acee]" 
+									href="https://twitter.com/Majestic_Bull"
+									target="_blank"
+									rel="noreferrer"
+									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#00acee]"
 								>
 									Twitter
 								</a>
 							</li>
 							<li className="mb-10">
 								<a
-									href="https://www.instagram.com/majestic.bulls/?hl=en" target="_blank" rel="noreferrer"
+									href="https://www.instagram.com/majestic.bulls/?hl=en"
+									target="_blank"
+									rel="noreferrer"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#8a3ab9] "
 								>
 									Instagram{' '}
@@ -161,7 +188,7 @@ function Footer() {
 					</div>
 				</div>
 			</div>
-			
+
 			{/* <a href="https://www.fox.so/" target="_blank"  rel="noreferrer">
 			<p className="font-nexa font-light mt-16 text-xl sm:text-[22px] leading-[30px] text-white text-center hover:text-[#C67312]">
 			Project By <span className="text-[#C67312] hover:text-[#FFFFFF]">Cyber Fox</span> 

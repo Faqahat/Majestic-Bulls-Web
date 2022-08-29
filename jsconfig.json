@@ -1,9 +1,8 @@
-
 {
-    "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "@imgs/*": ["/pages/img/*"]
-      }
-    }
-  }
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@imgs/*": ["/pages/img/*"]
+		}
+	}
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import filledDot from '@imgs/rec.png'
-import Dot from '@imgs/norec.png'
+import filledDot from '@imgs/filledDot.png'
+import Dot from '@imgs/Dot.png'
 import Image from 'next/image'
 import ReactPlayer from 'react-player'
 export default function Tale() {
@@ -28,16 +28,19 @@ export default function Tale() {
 					</h2>
 					<ul className="space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-						- The Majestic Bulls NFT Collection of XXXX Distinct NFTS is our Project.
+							- The Majestic Bulls NFT Collection of XXXX Distinct NFTS is our
+							Project.
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-						- TMBs are built on Ethereum Blockchain and To be Listed on OpenSea.
+							- TMBs are built on Ethereum Blockchain and To be Listed on
+							OpenSea.
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-						- Holding TMBs gives you a ticket into our Majestic Bulls Community
+							- Holding TMBs gives you a ticket into our Majestic Bulls
+							Community
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-						- TMBs come with a lot of Future Utilities.
+							- TMBs come with a lot of Future Utilities.
 						</li>
 					</ul>
 				</div>

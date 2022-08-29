@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import React, { createContext, useReducer } from 'react'
+import React, { createContext, useState } from 'react'
+
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import InfoBox from './components/Infobox/Infobox'
@@ -13,19 +14,17 @@ import TheAlphas from './components/TheAlphas/TheAlphas'
 import TheCounsil from './components/TheCounsil/TheCounsil'
 import TheMajesticOnes from './components/TheMajesticOnes/TheMajesticOnes'
 import TheDesign from './components/TheDesign/TheDesign'
+import { Waypoint } from 'react-waypoint'
 
 import '../styles/globals.css'
 
 function LandingPage() {
+	let [active, setActive] = useState('intro')
 	return (
 		<>
 			<Head>
 				<title>Majestic Bulls</title>
-				<link
-					rel="icon"
-					type="image/x-icon"
-					href="static/favicon.png"
-				/>
+				<link rel="icon" type="image/x-icon" href="static/favicon.png" />
 				<link rel="shortcut icon" href="/static/favicon.png" />
 				<link
 					rel="apple-touch-icon"
@@ -46,16 +45,22 @@ function LandingPage() {
 				/>
 			</Head>
 			<div className="overflow-hidden">
-				<Navigation />
+				<Navigation active={active} />
+				<Waypoint onEnter={() => setActive('intro')} />
 				<Hero />
 				<div id="content">
 					<main>
 						{/*<Minting />*/}
 						<ShortDescription />
+						<Waypoint onEnter={() => setActive('design')} />
 						<TheDesign />
+						<Waypoint onEnter={() => setActive('tale')} />
 						<Tale />
+						<Waypoint onEnter={() => setActive('majestic')} />
 						<TheMajesticOnes />
+						<Waypoint onEnter={() => setActive('alphas')} />
 						<TheAlphas />
+						<Waypoint onEnter={() => setActive('')} />
 						<RoadMap />
 						<InfoBox />
 
