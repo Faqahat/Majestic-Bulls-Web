@@ -4,13 +4,11 @@ import Image from 'next/image'
 function ShortDescription() {
 	return (
 		<div className="bg-black">
-			<p className=" text-white text-2xl  md:text-4xl lg:text-4xl xl:text-4xl  font-bold  mb-[20px]  md:leading-normal max-w-[1410px] w-full px-5 mx-auto  pt-12 pb-6 font-Abreto text-left">
-				Majestic Bulls is an{' '}
+			<p className=" text-white text-3xl  md:text-5xl lg:text-5xl xl:text-5xl  font-bold  mb-[20px]  md:leading-normal max-w-[1410px] w-full px-5 mx-auto  pt-12 pb-6 font-Abreto text-left">
+				Majestic Bulls is a Blockchain{' '}
 				<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-					Etheterum
+					EcoSystem
 				</span>{' '}
-				Powered <br />
-				3D NFT Project
 			</p>{' '}
 			<div className="h-64 w-screen relative">
 				<Image

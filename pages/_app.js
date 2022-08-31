@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import React, { createContext, useReducer } from 'react'
+
+import React, { createContext, useReducer,useState  } from 'react'
 import ScrollToTop from "react-scroll-to-top";
+
 
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
@@ -14,20 +16,21 @@ import Tale from './components/Tale/Tale'
 import TheAlphas from './components/TheAlphas/TheAlphas'
 import TheCounsil from './components/TheCounsil/TheCounsil'
 import TheDesign from './components/TheDesign/TheDesign'
+
 import TheMajesticOnes from './components/TheMajesticOnes/TheMajesticOnes'
+
+import { Waypoint } from 'react-waypoint'
+
 
 import '../styles/globals.css'
 
 function LandingPage() {
+	let [active, setActive] = useState('intro')
 	return (
 		<>
 			<Head>
 				<title>Majestic Bulls</title>
-				<link
-					rel="icon"
-					type="image/x-icon"
-					href="static/favicon.png"
-				/>
+				<link rel="icon" type="image/x-icon" href="static/favicon.png" />
 				<link rel="shortcut icon" href="/static/favicon.png" />
 				<link
 					rel="apple-touch-icon"
@@ -48,7 +51,8 @@ function LandingPage() {
 				/>
 			</Head>
 			<div className="overflow-hidden">
-				<Navigation />
+				<Navigation active={active} />
+				<Waypoint onEnter={() => setActive('intro')} />
 				<Hero />
 				<div id="content">
 					<main>
@@ -68,10 +72,15 @@ function LandingPage() {
 						l21.333-42.667l21.333,42.667V340.17c-5.33,0.563-10.769,0.922-16.23,1.075c-0.362,0.01-0.724,0.016-1.086,0.024
 						c-1.382,0.032-2.765,0.05-4.148,0.055c-0.477,0.002-0.954,0.001-1.431,0.001C247.701,341.302,241.09,340.979,234.669,340.357z"/>
 						<ShortDescription />
+						<Waypoint onEnter={() => setActive('design')} />
 						<TheDesign />
+						<Waypoint onEnter={() => setActive('tale')} />
 						<Tale />
+						<Waypoint onEnter={() => setActive('majestic')} />
 						<TheMajesticOnes />
+						<Waypoint onEnter={() => setActive('alphas')} />
 						<TheAlphas />
+						<Waypoint onEnter={() => setActive('')} />
 						<RoadMap />
 						<InfoBox />
 
