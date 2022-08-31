@@ -11,11 +11,12 @@ import b7 from '@imgs/b-7.png'
 import b8 from '@imgs/b-8.png'
 import b9 from '@imgs/b-9.png'
 import img_magestic_ones from '@imgs/fire.png'
-import SpecialOne from "./SpecialOne"
 import Image from 'next/image'
 //import Link from 'next/link'
 import React, { useState } from 'react'
+
 import Modal from '../Modal'
+import SpecialOne from "./SpecialOne"
 
 // import af from '../../img/arrow_forward_go_back_left_icon.png'
 // import ar from '../../img/arrow_forward_go_next_right_icon.png'
@@ -33,12 +34,12 @@ function TheMajesticOnes() {
 			image: b1,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
 			name: "The Golden",
-			description: "The golden, a divinely-gifted beast with superior strength.The golden is described as monstrous, as could be expected of a bull; Gigantic ,rugged and hulking.His power was too great for the mortals cause He has the ability to melt any metal. His supersonic power over metallic things causes his enemies' ear lobes to break and renders their hearing useless. Even he is capable of blowing their mind. He  is one of the most feared deities.",
+			description: "The golden, a divinely-gifted beast with superior strength.The golden is described as monstrous, as could be expected of a bull; Gigantic ,rugged and hulking. His power was too great for the mortals because He has the ability to melt any metal. His supersonic power over metallic things causes his enemies' ear lobes to break and renders their hearing useless. Even he is capable of blowing their mind. He  is one of the most feared deities.",
 			image: b2,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
@@ -47,11 +48,11 @@ function TheMajesticOnes() {
 		},
 		{
 			name: "The PLasma",
-			description: "The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire.Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky.He possesses the might of 100 suns.",
+			description: "The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire. Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky. He possesses the might of 100 suns.",
 			image: b3,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -60,25 +61,25 @@ function TheMajesticOnes() {
 			image: b4,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
 			name: "The Light",
-			description: "The light , a legendary man-beast combining features of a Bovine and human,held the destructive power of lighting but also brought beneficial rain to agricultural land and would, therefore, be a powerful symbol of the force of nature.The light is among the most powerful diety as those who dread the darkness have never seen what the light can do.",
+			description: "The light , a legendary man-beast combining features of a Bovine and human, held the destructive power of lighting but also brought beneficial rain to agricultural land and would, therefore, be a powerful symbol of the force of nature. The light is among the most powerful diety as those who dread the darkness have never seen what the light can do.",
 			image: b5,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
 			name: "The Prisim",
-			description: "The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility.It confers power over other people by being invisible to the naked eye.",
+			description: "The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility. It confers power over other people by being invisible to the naked eye.",
 			image: b6,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -87,7 +88,7 @@ function TheMajesticOnes() {
 			image: b7,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -96,7 +97,7 @@ function TheMajesticOnes() {
 			image: b8,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -105,7 +106,7 @@ function TheMajesticOnes() {
 			image: b9,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -114,7 +115,7 @@ function TheMajesticOnes() {
 			image: b10,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -123,7 +124,7 @@ function TheMajesticOnes() {
 			image: b11,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 		{
@@ -132,7 +133,7 @@ function TheMajesticOnes() {
 			image: b12,
 			specialPower: "Some Power",
 			specialPowerIcon: "😈",
-			minted : true,
+			minted : false,
 			openSeaLink: "https://google.com"
 		},
 	]

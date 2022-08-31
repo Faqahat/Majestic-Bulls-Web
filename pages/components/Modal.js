@@ -1,11 +1,11 @@
-import React from "react";
 import b2 from '@imgs/b-2.png'
-import af from '../img/arrow_forward_go_back_left_icon.png'
+import Image from 'next/image'
+import React from "react";
+
+import al from '../img/arrow_forward_go_back_left_icon.png'
 import ar from '../img/arrow_forward_go_next_right_icon.png'
 //import opensea from '../img/opensea_logo_icon.png'
 import opensea from '../img/Logomark-Blue.svg'
-import Image from 'next/image'
-
 
 export default function Modal({ openModal, info ,current, setSelected ,total }) {
     return (
@@ -76,9 +76,13 @@ export default function Modal({ openModal, info ,current, setSelected ,total }) 
                                     className="disabled:invert"
                                     onClick ={()=>{if(current > 0) setSelected(current-1)}} >
 										<Image
-											src={af}
+											src={ar}
 											alt=""
-											className="w-8 h-8 md:w-auto md:h-auto"
+											className="w-8 rotate-180 h-8 md:w-auto md:h-auto"
+											width="50"
+											height="50"
+											
+											
 										/>
 									</button>
 									<button 
@@ -89,6 +93,8 @@ export default function Modal({ openModal, info ,current, setSelected ,total }) 
 											src={ar}
 											alt=""
 											className="w-8 h-8 md:w-auto md:h-auto"
+											width="50"
+											height="50"
 										/>
 									</button>
 								</div>

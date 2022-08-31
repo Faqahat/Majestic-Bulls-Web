@@ -18,7 +18,7 @@ function Navigation() {
 				id="navbar"
 				className="pl-0 z-50 px-5 w-full mx-auto h-[100px] xl:h-[120px] fixed bg-white border-b-2 border-black/20 xl:border-none  drop-shadow-lg"
 			>
-				<div className="max-w-[1820px] w-full mx-auto flex items-center justify-between gap-[4rem] h-full">
+				<div className="max-w-[1820px] md:px-4 w-full mx-auto flex items-center justify-between gap-[4rem] h-full">
 					<a href="#" className="flex items-center gap-1 h-full relative">
 						<Image
 							src={HeaderLogo}

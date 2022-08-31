@@ -1,5 +1,6 @@
 import Town from '@imgs/Town@2x.png'
 import Image from 'next/image'
+
 function ShortDescription() {
 	return (
 		<div className="bg-black">
@@ -26,7 +27,7 @@ function ShortDescription() {
 				of unnatural power, and the apex predator at the summit of the food
 				chain, The Majestic Bulls. Bulls are seen as labor, food, and
 				entertainment in old times and even today. Well, not these bulls though.
-				These hold the strength of unimaginable proportion
+				These hold the strength of unimaginable proportion.
 			</p>
 		</div>
 	)

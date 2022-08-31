@@ -1,13 +1,13 @@
-import Image from 'next/image'
-
-import img_alpha_png from '@imgs/alpha.png'
 import img_alpha_heading_png from '@imgs/alpha-heading.png'
+import img_alpha_png from '@imgs/alpha.png'
+import img_arrow from '@imgs/arrow.png'
 import img_coffee_png from '@imgs/aviation.png'
 import img_online_learning from '@imgs/discord.png'
+import img_checklist from '@imgs/list.png'
 import img_hoodie from '@imgs/merchandise.png'
 import img_bomber from '@imgs/role-playing.png'
-import img_checklist from '@imgs/list.png'
-import img_arrow from '@imgs/arrow.png'
+import Image from 'next/image'
+
 function TheAlphas() {
 	return (
 		<section
@@ -18,10 +18,12 @@ function TheAlphas() {
 				src={img_alpha_png}
 				alt="img"
 				className="w-full lg:aspect-video xl:aspect-auto xl:h-full "
-				// height="100%"
-				// width="100%"
+				 height="100%"
+				 width="100%"
+				 layout='responsive'
+    			objectFit='cover'
 			/>
-			<div className="w-full px-5 sm:px-12 2xl:px-[90px] py-12">
+			<div className="w-full content-center px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
 					<h2 className="text-2xl  md:text-[45px] text-white leading-[70px] font-light font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 						{'//'} <span className="font-bold text-white">The</span> Alpha Bulls
@@ -30,8 +32,8 @@ function TheAlphas() {
 						src={img_alpha_heading_png}
 						alt="img"
 						className="w-12 md:w-20 xl:w-auto xl:h-20 sm:h-auto "
-						height="65"
-						width="65"
+						height="55"
+						width="55"
 					/>
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
@@ -112,7 +114,7 @@ function TheAlphas() {
 							And more…
 						</a>
 					</div>
-					<div className="flex justify-center mt-32">
+					{/* <div className="flex justify-center mt-32">
 					<li className="flex items-center justify-center mb-5 md:mb-auto">
 					<a
 						href="#"
@@ -128,7 +130,7 @@ function TheAlphas() {
 						/>
 					</a>
 				</li>
-					</div>
+					</div> */}
 					
 				</div>
 			</div>
