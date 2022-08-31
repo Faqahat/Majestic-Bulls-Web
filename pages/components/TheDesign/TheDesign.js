@@ -42,8 +42,10 @@ export default function TheDesign() {
 				<div>
 					<div className="grid grid-cols-3 sm:grid-cols-3 gap-4 sm:gap-6 xl:gap-10 w-full mt-5">
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
-							<button className="   h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">28</span>
+
+							<button className="   h-[100px]  text-xl md:text-[30px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
+								<span className="md:mr-4">25</span>
+
 								<Image
 									src={WeaponIcon}
 									alt="arrow"
@@ -58,8 +60,10 @@ export default function TheDesign() {
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
-							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">31</span>
+
+							<button className="  h-[100px]  text-xl md:text-[30px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
+								<span className="md:mr-4">12</span>
+
 								<Image
 									src={EyeIcon}
 									alt="arrow"
@@ -74,8 +78,10 @@ export default function TheDesign() {
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
-							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">73</span>
+
+							<button className="  h-[100px]  text-xl md:text-[30px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
+								<span className="md:mr-4">20</span>
+
 								<Image
 									src={AccessoriesIcon}
 									alt="arrow"
@@ -90,8 +96,10 @@ export default function TheDesign() {
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
-							<button className=" h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">39</span>
+
+							<button className=" h-[100px]  text-xl md:text-[30px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
+								<span className="md:mr-4">12</span>
+
 								<Image
 									src={BackgroundsIcon}
 									alt="arrow"
@@ -106,8 +114,10 @@ export default function TheDesign() {
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
-							<button className="  h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">150</span>
+
+							<button className="  h-[100px]  text-xl md:text-[30px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
+								<span className="md:mr-4">15</span>
+
 								<Image
 									src={BodiesIcon}
 									alt="arrow"
@@ -122,8 +132,10 @@ export default function TheDesign() {
 						</div>
 
 						<div className=" block max-w-[150px] text-center items-center  bg-black hover:-translate-y-1 scale-110 duration-300">
-							<button className="   h-[100px]  text-xl md:text-[40px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
-								<span className="md:mr-4">31</span>
+
+							<button className="   h-[100px]  text-xl md:text-[30px] text-white font-bold font-nexa px-10 py-4 md:p-0   justify-center items-center gap-3  ">
+								<span className="md:mr-4">12</span>
+
 								<Image
 									src={HornsIcon}
 									alt="arrow"

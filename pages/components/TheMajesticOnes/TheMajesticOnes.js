@@ -11,11 +11,15 @@ import b7 from '@imgs/b-7.png'
 import b8 from '@imgs/b-8.png'
 import b9 from '@imgs/b-9.png'
 import img_magestic_ones from '@imgs/fire.png'
+
 import SpecialOne from './SpecialOne'
+
 import Image from 'next/image'
 //import Link from 'next/link'
 import React, { useState } from 'react'
+
 import Modal from '../Modal'
+import SpecialOne from "./SpecialOne"
 
 // import af from '../../img/arrow_forward_go_back_left_icon.png'
 // import ar from '../../img/arrow_forward_go_next_right_icon.png'
@@ -32,6 +36,7 @@ function TheMajesticOnes() {
 			description:
 				"The Devil, often known as Satan, tempts people to commit sin or believe lies. He has the power to arouse people's illicit passions. His presence does not constrain the scope of his abilities, giving them a nearly infinite range. The devil has the power to hinder lesser supernatural entities from using their powers, paralyzing all the other being in his path.",
 			image: b1,
+
 			specialPower: 'Temp People to Commit Sins',
 			specialPowerIcon: '🔯',
 			minted: false,
@@ -41,6 +46,7 @@ function TheMajesticOnes() {
 			name: 'The Golden',
 			description:
 				"The golden, a divinely-gifted beast with superior strength.The golden is described as monstrous, as could be expected of a bull; Gigantic ,rugged and hulking.His power was too great for the mortals cause He has the ability to melt any metal. His supersonic power over metallic things causes his enemies' ear lobes to break and renders their hearing useless. Even he is capable of blowing their mind. He  is one of the most feared deities.",
+
 			image: b2,
 			specialPower: 'Melt any Metal',
 			specialPowerIcon: '🌡️',
@@ -48,6 +54,7 @@ function TheMajesticOnes() {
 			openSeaLink: '',
 		},
 		{
+
 			name: 'The Plasma',
 			description:
 				'The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire.Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky.He possesses the might of 100 suns.',
@@ -56,12 +63,14 @@ function TheMajesticOnes() {
 			specialPowerIcon: '☠️',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Electric',
 			description:
 				'The electric, master, and ruler of all the electricity. Everything that functions and is powered by electricity bows down before him. He is the king without a crown in a world that runs on technology. he is described as extremely strong with a violent temper.',
 			image: b4,
+
 			specialPower: 'Control Electronics',
 			specialPowerIcon: '⚡',
 			minted: false,
@@ -86,66 +95,79 @@ function TheMajesticOnes() {
 			specialPowerIcon: '🪞',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Metalic',
 			description:
 				'The metallic, he is powerless. but everyone is enamored with him because of his attractive, shining skin. he is eye candy. He is the strongest bull in the majestic bull series since love is the greatest force in the universe.',
 			image: b7,
+
 			specialPower: 'Love',
 			specialPowerIcon: '💘',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Stone',
 			description:
 				"The Stone's skin resembles stone, giving him superhuman strength and endurance. His exceptional physical makeup enables him to lift almost one hundred tonnes, endure extremely high or low temperatures, and withstand powerful energy blasts and explosive detonations.",
 			image: b8,
+
 			specialPower: 'Toughness',
 			specialPowerIcon: '🛡️',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Mage',
 			description:
 				"Mage typically resides in the fifth dimension, in the realm of the fantastical, far from reality. However, the fury that it brings upon his foes gives him a very substantial existence. The Fifth Dimension is your imagination. Mage has authority over everyone's imagination because he is the fifth dimension's potentate.",
 			image: b9,
+
 			specialPower: 'Time Travel',
 			specialPowerIcon: '⏳',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Galaxy',
 			description:
 				"The galaxy can manipulate the motions of planets and asteroids throughout the cosmos, sending his adversaries into a tizzy. He has the ability to rain asteroids down on foes from space. Moreover, he has the power to alter gravity, raise sea levels, and trigger powerful floods by interfering with planets' motion. In order to govern the space-time continuum, bend reality, and alter time and space, he can modify gravity.",
 			image: b10,
+
 			specialPower: 'Meteor Shower',
 			specialPowerIcon: '☄️',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Bolt',
 			description:
 				"According to legend, The thunder has a power equivalent to 10 million thunders. When there is warfare, the thunder can unleash destructive thunderstorms on the enemy. The capacity of the Thunder to control the thunderstorm at the tip of its stick makes him indeed one of the most powerful bulls in history. The Thunder is true 'Majestic'.",
 			image: b11,
+
 			specialPower: 'Thunderstorms',
 			specialPowerIcon: '🌩️',
 			minted: false,
 			openSeaLink: '',
+
 		},
 		{
 			name: 'The Sonar',
 			description:
 				"The Sonar is among the First Majestic Ones. It has the power to influence people's thoughts, perceptions, memories, emotions, and personalities. with the capacity to read thoughts up to 10 km away. One of the most feared Bulls in Bullsmania and its environs is the sonar. The Sonar is extremely valuable since it can gather intelligence by penetrating the thoughts of adversaries and debunking their strategies!",
 			image: b12,
+
 			specialPower: 'Read Minds',
 			specialPowerIcon: '🧠',
 			minted: false,
 			openSeaLink: '',
+
 		},
 	]
 
