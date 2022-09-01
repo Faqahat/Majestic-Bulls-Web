@@ -11,9 +11,6 @@ import b7 from '@imgs/b-7.png'
 import b8 from '@imgs/b-8.png'
 import b9 from '@imgs/b-9.png'
 import img_magestic_ones from '@imgs/fire.png'
-
-import SpecialOne from './SpecialOne'
-
 import Image from 'next/image'
 //import Link from 'next/link'
 import React, { useState } from 'react'
