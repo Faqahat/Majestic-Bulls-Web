@@ -76,7 +76,7 @@ function TheMajesticOnes() {
 		{
 			name: 'The Light',
 			description:
-				'The light , a legendary man-beast combining features of a Bovine and human,held the destructive power of lighting but also brought beneficial rain to agricultural land and would, therefore, be a powerful symbol of the force of nature.The light is among the most powerful diety as those who dread the darkness have never seen what the light can do.',
+				'The light , a legendary man-beast combining features of a Bovine and human, held the destructive power of lighting but also brought beneficial rain to agricultural land and would, therefore, be a powerful symbol of the force of nature. The light is among the most powerful diety as those who dread the darkness have never seen what the light can do.',
 			image: b5,
 			specialPower: 'Control Weather',
 			specialPowerIcon: '🌦️',
@@ -95,7 +95,7 @@ function TheMajesticOnes() {
 
 		},
 		{
-			name: 'The Metalic',
+			name: 'The Metallic',
 			description:
 				'The metallic, he is powerless. but everyone is enamored with him because of his attractive, shining skin. he is eye candy. He is the strongest bull in the majestic bull series since love is the greatest force in the universe.',
 			image: b7,
@@ -109,7 +109,7 @@ function TheMajesticOnes() {
 		{
 			name: 'The Stone',
 			description:
-				"The Stone's skin resembles stone, giving him superhuman strength and endurance. His exceptional physical makeup enables him to lift almost one hundred tonnes, endure extremely high or low temperatures, and withstand powerful energy blasts and explosive detonations.",
+				"The Stone's skin resembles stone, giving him superhuman strength and endurance. His exceptional physical makeup enables him to lift almost one hundred tones, endure extremely high or low temperatures, and withstand powerful energy blasts and explosive detonations.",
 			image: b8,
 
 			specialPower: 'Toughness',
