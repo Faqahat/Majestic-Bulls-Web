@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import filledDot from '@imgs/filledDot.png'
 import Dot from '@imgs/dot.png'
+import Fball from '@imgs/Fball.png'
+import filledDot from '@imgs/filledDot.png'
 import Image from 'next/image'
+import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
+
 export default function Tale() {
 	const [preview, setPreview] = useState(1)
 	const [hasWindow, setHasWindow] = useState(false)
@@ -17,10 +19,19 @@ export default function Tale() {
 				id="roadmap"
 				className="py-20 pb-0  2xl:pl-20 pl-7 block md:flex justify-between gap-5"
 			>
-				<div className="lg:max-w-[1000px] w-full mb-10 md:mb-0">
-					<h3 className="text-2xl md:text-3xl xl:text-4xl font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+				<div className="lg:max-w-[1000px]   w-full mb-10 md:mb-0">
+					<h3 className="text-2xl mb-[40px] md:text-3xl xl:text-4xl font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 						What’s Coming Next?
 					</h3>
+					{/* <Image
+								src={Fball}
+								alt="img"
+								//layout="responsive"
+								 objectFit="contain"
+								 width="400px"
+								 height="400px"
+								
+							/> */}
 				</div>
 				<div className="lg:max-w-[880px] w-full">
 					<h2 className="text-2xl lg:text-3xl 2xl:text-[40px] font-bold leading-none font-nexa mb-10 xl:mb-20">
@@ -45,7 +56,7 @@ export default function Tale() {
 					</ul>
 				</div>
 			</section>
-			<p className="font-light font-nexa text-black underline text-2xl lg:text-[35px] pt-6 mb-[-13px] md:mb-10 xl:mb-16 text-center decoration-1 underline-offset-8">
+			<p className="font-light font-nexa text-black underline text-2xl lg:text-[35px]  mb-[-13px] md:mb-10 xl:mb-16 text-center decoration-1 underline-offset-8">
 				Previews
 			</p>
 			<div className="w-[90%] md:w-[50%] ml-[5%] md:ml-[23%] pb-10">
