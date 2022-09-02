@@ -83,7 +83,7 @@ function TheMajesticOnes() {
 			minted: false,
 			openSeaLink: '',
 		},
-		{
+		{ 
 			name: 'The Prisim',
 			description:
 				'The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility.It confers power over other people by being invisible to the naked eye.',
