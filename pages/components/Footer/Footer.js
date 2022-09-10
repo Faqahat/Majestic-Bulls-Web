@@ -84,7 +84,17 @@ function Footer() {
 							NFT
 						</p>
 						<ul>
-							<li className="mb-4">
+						<li className="mb-4">
+								<a
+									href="https://majesticbulls.medium.com" 
+									target="_blank"
+									rel="noopener noreferrer"
+									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+								>
+									{' '}
+									Medium{' '}
+								</a>
+							</li><li className="mb-4">
 								<a
 									href="#infobox"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
