@@ -66,7 +66,7 @@ function Navigation({ active }) {
 										<span className="font-bold"> The </span> Tale
 									</a>
 								</li>
-								<li>
+								{/* <li>
 									<a
 										href="#majestic"
 										className={
@@ -74,7 +74,7 @@ function Navigation({ active }) {
 												? 'text-link active'
 												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
 										}
-									>
+									> */}
 										{/* <span className="font-bold"> The </span>Majestics Ones
 									</a>
 								</li>
@@ -87,10 +87,22 @@ function Navigation({ active }) {
 												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
 										}
 									> */}
+									
 										{/* <span className="font-bold"> The </span> Alphas */}
+									{/* </a>
+								</li> */}
+								<li>
+									<a
+										href="#roadmap"
+										className={
+											active === 'roadmap'
+												? 'text-link active'
+												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+										}
+									>
+										<span  className="font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text"> ? ?</span> 
 									</a>
 								</li>
-
 							</ul>
 							<a
 								href="https://twitter.com/Majestic_Bull"

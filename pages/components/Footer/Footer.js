@@ -104,7 +104,7 @@ function Footer() {
 									Digest{' '}
 								</a>
 							</li>
-							<li className="mb-4">
+							{/* <li className="mb-4">
 								<Tooltip
 									content={'Coming Soon'}
 									trigger="click"
@@ -115,9 +115,9 @@ function Footer() {
 										Open Sea
 									</span>
 								</Tooltip>
-							</li>
+							</li> */}
 
-							<li className="mb-4">
+							{/* <li className="mb-4">
 								<Tooltip
 									content={'Coming Soon'}
 									trigger="click"
@@ -128,7 +128,7 @@ function Footer() {
 										Ether Scan{' '}
 									</span>
 								</Tooltip>
-							</li>
+							</li> */}
 
 							<li className="mb-4">
 								<Tooltip
