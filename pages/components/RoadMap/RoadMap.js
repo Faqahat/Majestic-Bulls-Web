@@ -42,10 +42,10 @@ export default function Tale() {
 							- The Majestic Bulls NFT Collection of XXXX Distinct NFTS is our
 							Project.
 						</li>
-						<li className="font-light font-nexa text-black text-base  text-[16px]">
+						{/* <li className="font-light font-nexa text-black text-base  text-[16px]">
 							- TMBs are built on Ethereum Blockchain and To be Listed on
 							OpenSea.
-						</li>
+						</li> */}
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
 							- Holding TMBs gives you a ticket into our Majestic Bulls
 							Community
@@ -93,14 +93,50 @@ export default function Tale() {
 									url={require('../../img/header.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
 								/>
-							) : (
+							) 
+							: preview === 4 ? (
+								<ReactPlayer
+									playing
+									pip={true}
+									muted={false}
+									light={false}
+									// onEnded={() => setPlaying(false)}
+									url={require('../../img/Electric_Preview.mp4')}
+									config={{ file: { attributes: { playsInline: true } } }}
+								/>
+							) 
+							: preview === 5 ? (
+								<ReactPlayer
+									playing
+									pip={true}
+									muted={false}
+									light={false}
+									// onEnded={() => setPlaying(false)}
+									url={require('../../img/Solar_Preview.mp4')}
+									config={{ file: { attributes: { playsInline: true } } }}
+								/>
+							) 
+							: preview === 6 ? (
+								<ReactPlayer
+									playing
+									pip={true}
+									muted={false}
+									light={false}
+									// onEnded={() => setPlaying(false)}
+									url={require('../../img/Light_Preview.mp4')}
+									config={{ file: { attributes: { playsInline: true } } }}
+								/>
+							) 
+							
+							:
+							 (
 								<></>
 							))}
 					</div>
 				</div>
 
 				<div className="flex flex-col items-center justify-center  mt-8 ">
-					<div className="grid gap-4 grid-cols-3">
+					<div className="grid gap-4 grid-cols-6">
 						{preview === 1 ? (
 							<Image src={filledDot} width="24px" height="24px" />
 						) : (
@@ -134,6 +170,45 @@ export default function Tale() {
 								height="24px"
 								onClick={() => {
 									setPreview(3)
+								}}
+							/>
+						)}
+
+						{preview === 4 ? (
+							<Image src={filledDot} width="24px" height="24px" />
+						) : (
+							<Image
+								src={Dot}
+								width="24px"
+								height="24px"
+								onClick={() => {
+									setPreview(4)
+								}}
+							/>
+						)}
+
+						{preview === 5 ? (
+							<Image src={filledDot} width="24px" height="24px" />
+						) : (
+							<Image
+								src={Dot}
+								width="24px"
+								height="24px"
+								onClick={() => {
+									setPreview(5)
+								}}
+							/>
+						)}
+
+						{preview === 6 ? (
+							<Image src={filledDot} width="24px" height="24px" />
+						) : (
+							<Image
+								src={Dot}
+								width="24px"
+								height="24px"
+								onClick={() => {
+									setPreview(6)
 								}}
 							/>
 						)}

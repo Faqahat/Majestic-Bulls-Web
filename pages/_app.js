@@ -63,13 +63,13 @@ useEffect(()=>{
 						<TheDesign />
 						<Waypoint onEnter={() => setActive('tale')} />
 						<Tale />
-						<Waypoint onEnter={() => setActive('majestic')} />
+						{/* <Waypoint onEnter={() => setActive('majestic')} />
 						<TheMajesticOnes />
 						<Waypoint onEnter={() => setActive('alphas')} />
-						<TheAlphas />
+						<TheAlphas /> */}
 						<Waypoint onEnter={() => setActive('')} />
 						<RoadMap />
-						<InfoBox />
+						{/* <InfoBox /> */}
 
 						{/* <TheCounsil /> */}
 						<Footer />

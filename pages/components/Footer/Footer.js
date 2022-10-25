@@ -1,7 +1,8 @@
 //import bull_skull_footer from '@imgs/bull_skull_footer.png'
 import bull_skull_footer from '@imgs/bull (1).png'
-import Image from 'next/image'
 import { Tooltip } from '@nextui-org/react'
+import Image from 'next/image'
+
 function Footer() {
 	return (
 		<footer className="bg-black w-full px-5 pb-10 pt-[70px] ">

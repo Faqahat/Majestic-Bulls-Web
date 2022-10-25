@@ -75,7 +75,7 @@ function Navigation({ active }) {
 												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
 										}
 									>
-										<span className="font-bold"> The </span>Majestics Ones
+										{/* <span className="font-bold"> The </span>Majestics Ones
 									</a>
 								</li>
 								<li>
@@ -86,37 +86,11 @@ function Navigation({ active }) {
 												? 'text-link active'
 												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
 										}
-									>
-										<span className="font-bold"> The </span> Alphas
+									> */}
+										{/* <span className="font-bold"> The </span> Alphas */}
 									</a>
 								</li>
 
-								{/* <li>
-							<a href="#roadmap" className={roadmap ?"text-link active" :"text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300" }  onClick={()=>{setIntro(false);setTale(false);setMajestic(false);setAplha(false);setRoadmap(true);setCouncil(false)}}>
-
-								<span className="font-bold"> The </span> Roadmap
-							</a>
-						</li>
-						<li>
-							<a
-								href="#council"
-								className={
-									council
-										? 'text-link active'
-										: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
-								}
-								onClick={() => {
-									setIntro(false)
-									setTale(false)
-									setMajestic(false)
-									setAplha(false)
-									setRoadmap(false)
-									setCouncil(true)
-								}}
-							>
-								<span className="font-bold"> The </span>Council
-							</a>
-						</li> */}
 							</ul>
 							<a
 								href="https://twitter.com/Majestic_Bull"

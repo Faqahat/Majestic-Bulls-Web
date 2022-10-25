@@ -20,7 +20,7 @@ function ShortDescription() {
 				/>
 			</div>
 			<p className="text-justify flex sm:text-xs md:text-xl md:mt-[40px] md:mb-[40px]    text-white md:leading-normal max-w-[1410px] w-full px-5 mx-auto  pb-12 pt-6 font-Abreto ">
-			A unique collection of NFTs powered by Ethereum, Majestic Bulls. A community with a strong sense of belonging. An interesting theme and story with a strong community. Majestic Bulls is one of a kind with its scalable architecture and very dedicated & professional team. Majestic Bulls is more than just an NFT project. We strive to build an ecosystem where all stakeholders can benefit.
+			A unique collection of NFTs powered by Web 3.0, Majestic Bulls. A community with a strong sense of belonging. An interesting theme and story with a strong community. Majestic Bulls is one of a kind with its scalable architecture and very dedicated & professional team. Majestic Bulls is more than just an NFT project. We strive to build an ecosystem where all stakeholders can benefit.
 			</p>
 		</div>
 	)
