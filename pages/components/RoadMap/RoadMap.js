@@ -5,7 +5,10 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
 
+
 export default function Tale() {
+
+	let [playing, setPlaying] = useState(false)
 	const [preview, setPreview] = useState(1)
 	const [hasWindow, setHasWindow] = useState(false)
 	useEffect(() => {
@@ -39,8 +42,7 @@ export default function Tale() {
 					</h2>
 					<ul className="space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- The Majestic Bulls NFT Collection of XXXX Distinct NFTS is our
-							Project.
+							- Majestic Bulls, our first official NFT series, offers access to ongoing projects and a closed community within the OMEN ecosystem.
 						</li>
 						{/* <li className="font-light font-nexa text-black text-base  text-[16px]">
 							- TMBs are built on Ethereum Blockchain and To be Listed on
@@ -65,73 +67,150 @@ export default function Tale() {
 						{hasWindow &&
 							(preview === 1 ? (
 								<ReactPlayer
-									playing
+									playing={playing}
 									pip={true}
 									muted={false}
 									light={false}
-									// onEnded={() => setPlaying(false)}
+									onEnded={() => setPlaying(false)}
 									url={require('../../img/vid-1.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
+									onClick={() => {
+										if (playing) {
+											return setPlaying(false)
+										}
+					
+										setPlaying(true)
+									}}
 								/>
+								
 							) : preview === 2 ? (
 								<ReactPlayer
-									playing
+									playing={playing}
 									pip={true}
 									muted={false}
 									light={false}
-									// onEnded={() => setPlaying(false)}
+									onEnded={() => setPlaying(false)}
 									url={require('../../img/vid-2.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
+									onClick={() => {
+										if (playing) {
+											return setPlaying(false)
+										}
+					
+										setPlaying(true)
+									}}
 								/>
 							) : preview === 3 ? (
 								<ReactPlayer
-									playing
+									playing={playing}
 									pip={true}
 									muted={false}
 									light={false}
-									// onEnded={() => setPlaying(false)}
+									onEnded={() => setPlaying(false)}
 									url={require('../../img/header.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
+									onClick={() => {
+										if (playing) {
+											return setPlaying(false)
+										}
+					
+										setPlaying(true)
+									}}
 								/>
 							) 
 							: preview === 4 ? (
 								<ReactPlayer
-									playing
+									playing={playing}
 									pip={true}
 									muted={false}
 									light={false}
-									// onEnded={() => setPlaying(false)}
+									onEnded={() => setPlaying(false)}
 									url={require('../../img/Electric_Preview.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
+									onClick={() => {
+										if (playing) {
+											return setPlaying(false)
+										}
+					
+										setPlaying(true)
+									}}
 								/>
 							) 
 							: preview === 5 ? (
 								<ReactPlayer
-									playing
+									playing={playing}
 									pip={true}
 									muted={false}
 									light={false}
-									// onEnded={() => setPlaying(false)}
+									onEnded={() => setPlaying(false)}
 									url={require('../../img/Solar_Preview.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
+									onClick={() => {
+										if (playing) {
+											return setPlaying(false)
+										}
+					
+										setPlaying(true)
+									}}
 								/>
 							) 
 							: preview === 6 ? (
 								<ReactPlayer
-									playing
+									playing={playing}
 									pip={true}
 									muted={false}
 									light={false}
-									// onEnded={() => setPlaying(false)}
+									onEnded={() => setPlaying(false)}
 									url={require('../../img/Light_Preview.mp4')}
 									config={{ file: { attributes: { playsInline: true } } }}
+									onClick={() => {
+										if (playing) {
+											return setPlaying(false)
+										}
+					
+										setPlaying(true)
+									}}
 								/>
+								
 							) 
-							
 							:
 							 (
 								<></>
 							))}
+
+					<div className="flex items-center justify-center  top-1/2 left-1/2 transform  -translate-x-1/2 -translate-y-1/2 gap-5 group">
+						{!playing ? (
+							<button
+								className=" absolute mr-[300px] md:mr-[600px] btn-play text-black w-16 h-16 lg:h-16 lg:w-16 opacity-100 flex items-center justify-center transition-all duration-200 rounded-full bg-white"
+								open
+								onClick={() => {
+									if (!playing) {
+										setPlaying(true)
+									} else {
+										setPlaying(false)
+									}
+								}}
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 384 512"
+									className="w-8 h-8 fill-current group-open:hidden block"
+								>
+									<path d="M24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13V38.13zM64.69 52.7C54.81 46.66 42.44 46.43 32.35 52.09C22.25 57.75 16 68.42 16 80V432C16 443.6 22.25 454.2 32.35 459.9C42.44 465.6 54.81 465.3 64.69 459.3L352.7 283.3C362.2 277.5 368 267.1 368 256C368 244.9 362.2 234.5 352.7 228.7L64.69 52.7z" />
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 320 512"
+									className="w-8 h-8 fill-current group-open:block hidden"
+								>
+									<path d="M64 64C59.58 64 56 67.58 56 72v368C56 444.4 59.58 448 64 448s8-3.578 8-8V72C72 67.58 68.42 64 64 64zM256 64c-4.422 0-8 3.578-8 8v368c0 4.422 3.578 8 8 8s8-3.578 8-8V72C264 67.58 260.4 64 256 64z" />
+								</svg>
+							</button>
+						) : (
+							<></>
+						)}
+					</div>
+
 					</div>
 				</div>
 

@@ -1,5 +1,6 @@
+import { useEffect, useRef, useState } from 'react'
 import ReactPlayer from 'react-player'
-import { useRef, useState, useEffect } from 'react'
+
 function Header() {
 	let video = useRef()
 	let [playing, setPlaying] = useState(false)

@@ -1,13 +1,13 @@
 import b2 from '@imgs/b-2.png'
 import Image from 'next/image'
 import React from 'react'
-
+import { Tooltip } from "@nextui-org/react";
 //import React from "react";
-
 import al from '../img/arrow_forward_go_back_left_icon.png'
 import ar from '../img/arrow_forward_go_next_right_icon.png'
 //import opensea from '../img/opensea_logo_icon.png'
 import opensea from '../img/Logomark-Blue.svg'
+import MagicEden from '../img/MagicEden.png'
 
 export default function Modal({ openModal, info ,current, setSelected ,total }) {
     return (
@@ -58,18 +58,27 @@ export default function Modal({ openModal, info ,current, setSelected ,total }) 
 											{info.specialPower} {info.specialPowerIcon}
 										</p>
 									</div>
+									
+									<Tooltip
+										content={"Coming Soon"}
+										color="invert"
+										rounded={false}
+										placement={"top"}
+									>
 									<div className="max-w-[300px] w-full">
-										<button className="bg-white  flex items-center justify-between gap-2 text-black text-[14px] md:text-xl font-bold font-nexa py-1 px-4 w-full border border-[#707070] shadow-normal hover:shadow-none transition-all duration-300">
-											View on OpenSea
+
+										<button className="bg-white   flex items-center justify-between gap-2 text-black text-[14px] md:text-[14px] font-bold font-nexa py-1 px-4 w-full border border-[#707070] shadow-normal hover:shadow-none transition-all duration-300">
+											View on Magic Eden
 											<Image
-												src={opensea}
+												src={MagicEden}
 												alt=""
-												className="w-8 h-auto object-contain"
+												className="w-8 h-auto object-contain rounded-md"
                                                 width="30"
                                                 height="30"
 											/>
 										</button>
 									</div>
+									</Tooltip>
 								</div>
 
 								<div className="flex justify-between items-center gap-4">
@@ -167,6 +176,8 @@ export default function Modal({ openModal, info ,current, setSelected ,total }) 
 							</svg>
 						</button> */}
 					</div>
+
+			
 			
 		</>
 	)

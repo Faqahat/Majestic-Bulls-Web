@@ -66,7 +66,8 @@ function Navigation({ active }) {
 										<span className="font-bold"> The </span> Tale
 									</a>
 								</li>
-								{/* <li>
+								
+								 <li>
 									<a
 										href="#majestic"
 										className={
@@ -74,28 +75,16 @@ function Navigation({ active }) {
 												? 'text-link active'
 												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
 										}
-									> */}
-										{/* <span className="font-bold"> The </span>Majestics Ones
+									>  
+										 <span className="font-bold"> The </span>Majestics Ones
 									</a>
 								</li>
+
 								<li>
 									<a
 										href="#alpha"
 										className={
-											active === 'alphas'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
-										}
-									> */}
-									
-										{/* <span className="font-bold"> The </span> Alphas */}
-									{/* </a>
-								</li> */}
-								<li>
-									<a
-										href="#roadmap"
-										className={
-											active === 'roadmap'
+											active === 'omen'
 												? 'text-link active'
 												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
 										}
@@ -103,6 +92,34 @@ function Navigation({ active }) {
 										<span  className="font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text"> ? ?</span> 
 									</a>
 								</li>
+
+								<li>
+									<a
+										href="#infobox"
+										className={
+											active === 'WL'
+												? 'text-link active'
+												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+										}
+									>
+										<span className="font-bold"> The </span> W/L
+									</a>
+								</li>
+
+								{/* <li>
+									<a
+										href="#alpha"
+										className={
+											active === 'alphas'
+												? 'text-link active'
+												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+										}
+									> */} 
+									
+										{/* <span className="font-bold"> The </span> Alphas */}
+									{/* </a>
+								</li> */}
+								
 							</ul>
 							<a
 								href="https://twitter.com/Majestic_Bull"
@@ -174,6 +191,7 @@ function Navigation({ active }) {
 										<span className="font-bold"> The </span> Tale
 									</a>
 								</li>
+
 								<li
 									className="h-14"
 									onClick={() => {
@@ -191,7 +209,26 @@ function Navigation({ active }) {
 										<span className="font-bold"> The </span>Majestics Ones
 									</a>
 								</li>
+
 								<li
+									className="h-14"
+									onClick={() => {
+										setTgl(!tgl)
+									}}
+								>
+									<a
+										href="#infobox"
+										className={
+											active === 'WL'
+												? 'text-link active'
+												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+										}
+									>
+										<span className="font-bold"> The </span>W/L
+									</a>
+								</li>
+
+								{/* <li
 									className="h-14 "
 									onClick={() => {
 										setTgl(!tgl)
@@ -207,7 +244,7 @@ function Navigation({ active }) {
 									>
 										<span className="font-bold"> The </span> Alphas
 									</a>
-								</li>
+								</li> */}
 
 								<li className="h-14 flex justify-center">
 									<a

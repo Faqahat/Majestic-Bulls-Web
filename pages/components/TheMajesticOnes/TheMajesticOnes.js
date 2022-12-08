@@ -194,14 +194,14 @@ function TheMajesticOnes() {
 				<p className="text-justify font-Abreto sm:text-[23px] font-normal leading-relaxed sm:leading-[40px] ">
 					Majestic Bulls NFTS from our “The Majestic Ones” collection is
 					exquisite. There are total of 12 TMOS which are minted randomly.{' '}
-					<span className="color">
+					{/* <span className="color">
 						read more in our{' '}
 						<a href="#infobox">
 							{' '}
 							<strong> digest</strong>{' '}
 						</a>
 						..
-					</span>
+					</span> */}
 				</p>
 			</div>
 

@@ -6,7 +6,9 @@ import img_online_learning from '@imgs/discord.png'
 import img_checklist from '@imgs/list.png'
 import img_hoodie from '@imgs/merchandise.png'
 import img_bomber from '@imgs/role-playing.png'
+import OmenDao from '@imgs/OmenDao.png'
 import Image from 'next/image'
+import { Tooltip } from "@nextui-org/react";
 
 function TheAlphas() {
 	return (
@@ -15,7 +17,7 @@ function TheAlphas() {
 			className="scroll-mt-28 xl:scroll-mt-40 w-full bg-black grid grid-cols-1 xl:grid-cols-[minmax(400px,810px),minmax(450px,1140px)]"
 		>
 			<Image
-				src={img_alpha_png}
+				src={OmenDao}
 				alt="img"
 				className="w-full lg:aspect-video xl:aspect-auto xl:h-full "
 				 height="100%"
@@ -26,7 +28,7 @@ function TheAlphas() {
 			<div className="w-full content-center px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
 					<h2 className="text-2xl  md:text-[45px] text-white leading-[70px] font-light font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-						{'//'} <span className="font-bold text-white">The</span> Alpha Bulls
+						{'//'} <span className="font-bold text-white">The</span> Omen DAO
 					</h2>
 					<Image
 						src={img_alpha_heading_png}
@@ -38,15 +40,20 @@ function TheAlphas() {
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
 					<li className="text-justify text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-					Alpha Bulls are loyal Members of our community. With exclusive rights and privileges with a very limited number of Seats Only the Strongest and Loyal Bulls are Invited to Alpha Bulls Club.
+					OmenDAO is a Independent Decentralised Autonomous Organization on Solana Ecosystem. Omen is not a project its a decentralised community of Web3. OmenDAO helps the ecosystem by bringing new and innovative projects.
 					</li>
 					
 				</ul>
 				<div>
-					<p className="text-3xl md:text-[30px] underline text-[#717171] font-light font-nexa underline-offset-2">
-						Perks
+					<p className="text-2xl md:text-[20px]  text-[#717171] font-light font-nexa ">
+						Why Join OmenDAO?
 					</p>
 					<div className="grid sm:grid-cols-2 gap-10 sm:gap-6 xl:gap-10 w-full mt-5">
+						<Tooltip
+							content={"The elected board members of OmenDAO will have governing rights"}
+							rounded={false}
+							placement={"top"}
+						>
 						<div className="flex items-center gap-4">
 							<Image
 								src={img_coffee_png}
@@ -59,6 +66,8 @@ function TheAlphas() {
 							Governing Rights 
 							</p>
 						</div>
+					</Tooltip>
+
 						<div className="flex items-center gap-4">
 							<Image
 								src={img_online_learning}
@@ -71,6 +80,12 @@ function TheAlphas() {
 							Exclusive AMA Sessions
 							</p>
 						</div>
+
+						<Tooltip
+							content={"The DAO participants will be able to get beautifully desgined merch."}
+							rounded={false}
+							placement={"top"}
+						>
 						<div className="flex items-center gap-4">
 							<Image
 								src={img_hoodie}
@@ -80,10 +95,12 @@ function TheAlphas() {
 								width="50"
 							/>
 							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
-							Exclusive Alpha Merch
+							Exclusive  Merch
 							</p>
 						</div>
-						<div className="flex items-center gap-4">
+						</Tooltip>
+
+						{/* <div className="flex items-center gap-4">
 							<Image
 								src={img_bomber}
 								alt="img"
@@ -94,7 +111,8 @@ function TheAlphas() {
 							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
 							Special Discord Role
 							</p>
-						</div>
+						</div> */}
+						
 						<div className="flex items-center gap-4">
 							<Image
 								src={img_checklist}
@@ -104,14 +122,14 @@ function TheAlphas() {
 								width="50"
 							/>
 							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
-							Guaranteed Whitelist 
+							 Early Access in our future Projects 
 							</p>
 						</div>
 						<a
 							href="#"
-							className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white underline inline-block"
+							className="text-xl xl:text-[15px] font-nexa font-light leading-9 text-white  inline-block"
 						>
-							And more…
+							Be a part of our Bigger vision…
 						</a>
 					</div>
 					{/* <div className="flex justify-center mt-32">

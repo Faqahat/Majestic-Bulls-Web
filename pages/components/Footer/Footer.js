@@ -31,7 +31,7 @@ function Footer() {
 							<li className="mb-4">
 								<a
 									href="#intro"
-									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
+									className="text-lg sm:text-[20px] 2xl:text-[20px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Intro
 								</a>
@@ -39,7 +39,7 @@ function Footer() {
 							<li className="mb-4">
 								<a
 									href="#thedesign"
-									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
+									className="text-lg sm:text-[20px] 2xl:text-[20px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Art
 								</a>
@@ -48,7 +48,7 @@ function Footer() {
 							<li className="mb-4">
 								<a
 									href="#tale"
-									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
+									className="text-lg sm:text-[20px] 2xl:text-[20px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Tale
 								</a>
@@ -56,19 +56,19 @@ function Footer() {
 							<li className="mb-4">
 								<a
 									href="#majestic"
-									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
+									className="text-lg sm:text-[20px] 2xl:text-[20px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Majestics Ones{' '}
 								</a>
 							</li>
-							<li className="mb-4">
+							{/* <li className="mb-4">
 								<a
 									href="#alpha"
 									className="text-lg sm:text-[20px] 2xl:text-[24px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Alphas{' '}
 								</a>
-							</li>
+							</li> */}
 
 							{/* <li className="mb-4">
 								<a
@@ -85,24 +85,43 @@ function Footer() {
 							NFT
 						</p>
 						<ul>
-						<li className="mb-4">
+						<li className="mb-6">
 								<a
-									href="https://majesticbulls.medium.com" 
+									href="https://magiceden.io/drops/majesticbulls" 
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
 								>
 									{' '}
-									Medium{' '}
+									WhiteList{' '}
 								</a>
-							</li><li className="mb-4">
+							</li>
+							<li className="mb-6">
 								<a
-									href="#infobox"
+									href="https://forms.gle/PtnMWtZWMdvE5aZg6" 
+									target="_blank"
+									rel="noopener noreferrer"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
 								>
 									{' '}
-									Digest{' '}
+									 WL Collab Form{' '}
 								</a>
+							</li>
+							<li className="mb-4">
+							<Tooltip
+										content={"Coming Soon"}
+										
+										rounded={false}
+										placement={"top"}
+									>
+								<span
+									// href="#"
+									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px]"
+								>
+									{' '}
+									Magic Eden <br/> Collection{' '}
+								</span>
+								</Tooltip>
 							</li>
 							{/* <li className="mb-4">
 								<Tooltip
@@ -130,7 +149,7 @@ function Footer() {
 								</Tooltip>
 							</li> */}
 
-							<li className="mb-4">
+							{/* <li className="mb-4">
 								<Tooltip
 									content={'Coming Soon'}
 									trigger="click"
@@ -156,7 +175,7 @@ function Footer() {
 										Looks Rare{' '}
 									</span>
 								</Tooltip>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 					<div className=" ml-[80%] md:ml-0">
@@ -185,7 +204,7 @@ function Footer() {
 									Twitter
 								</a>
 							</li>
-							<li className="mb-10">
+							{/* <li className="mb-10">
 								<a
 									href="https://www.instagram.com/majestic.bulls/?hl=en"
 									target="_blank"
@@ -194,7 +213,7 @@ function Footer() {
 								>
 									Instagram{' '}
 								</a>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</div>
