@@ -18,9 +18,10 @@ import TheDesign from './components/TheDesign/TheDesign'
 import TheMajesticOnes from './components/TheMajesticOnes/TheMajesticOnes'
 import mixpanel from 'mixpanel-browser';
 import '../styles/globals.css'
-mixpanel.init('bf037040a1efd8980192695d12547dae', {debug: true});
+
 function LandingPage() {
 	let [active, setActive] = useState('intro')
+	mixpanel.init('bf037040a1efd8980192695d12547dae', {debug: true});
 useEffect(()=>{
 	setActive(active)
 },[])
@@ -48,7 +49,7 @@ useEffect(()=>{
 					href="/static/favicon-16x16.png"
 				/>
 			</Head>
-			<div className="overflow-hidden">
+			<div className="overflow-hidden scrollbar-thin selection:bg-black selection:text-white">
 				<Navigation active={active} />
 				<Waypoint onEnter={() => setActive('intro')} />
 				<Hero />
