@@ -95,7 +95,7 @@ function Navigation({ active }) {
 								
 								<li>
 									<a
-										href="#infobox"
+										href="#WL"
 										className={
 											active === 'WL'
 												? 'text-link  bg-[#000000] text-[#ffffff]'
@@ -217,9 +217,9 @@ function Navigation({ active }) {
 									}}
 								>
 									<a
-										href="#infobox"
+										href="#WL"
 										className={
-											active === 'infobox'
+											active === 'WL'
 												? 'text-link  bg-[#000000] text-[#ffffff]'
 												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}

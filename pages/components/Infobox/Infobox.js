@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function InfoBox() {
 	return (
-		<section id='infobox' className="w-full h-full  relative py-12 px-5 bg-black text-white">
+		<section id='WL' className="w-full h-full  relative py-12 px-5 bg-black text-white">
 			<Image
 				src={forestImg}
 				alt="img"

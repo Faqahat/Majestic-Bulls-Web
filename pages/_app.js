@@ -49,11 +49,11 @@ useEffect(()=>{
 					href="/static/favicon-16x16.png"
 				/>
 			</Head>
-			<div className="overflow-hidden scrollbar-thin selection:bg-black selection:text-white">
+			<div className="overflow-hidden ">
 				<Navigation active={active} />
 				<Waypoint onEnter={() => setActive('intro')} />
 				<Hero />
-				<div id="content">
+				<div id="content" className=" selection:bg-black selection:text-white">
 					<main>
 					<Waypoint onEnter={() => {console.log("INTRO"); setActive('intro')}} />
 						<ScrollToTop/>

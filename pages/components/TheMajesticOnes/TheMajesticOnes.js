@@ -175,8 +175,8 @@ function TheMajesticOnes() {
 		>
 			<div className="max-w-[1344px] w-full md:px-5 mx-auto text-center mb-12 md:mb-20">
 				<div className="flex items-center  justify-center  mb-7 md:mb-16">
-					<h2 className="text-xl md:text-[35px] text-black  font-light mt-[46px] md:mt-[37px] font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-						{'//'} <span className="font-bold text-black">The</span> Majestic
+					<h2 className=" md:text-[35px] text-black  font-light mt-[46px] md:mt-[37px] font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+						{'//'} <span className="font-bold text-black ">The</span> MAJESTIC
 						Ones
 					</h2>
 					<span className="ml-[-13px]  ">
@@ -192,11 +192,10 @@ function TheMajesticOnes() {
 					</span>
 				</div>
 				<p className="text-justify font-Abreto sm:text-[23px] font-normal leading-relaxed sm:leading-[40px] ">
-					Majestic Bulls NFTS from our “The Majestic Ones” collection is
-					exquisite. There are total of 12 TMOS which are minted randomly.{' '}
+					The Majestic Ones are the twelve 1o1 Exclusive NFTS from our Collection. Each Majestic One has a story and a super power. <strong className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Click on the images below</strong> to check them out. The Majesitc Ones are minted randomly from our Collection. {' '}
 					{/* <span className="color">
 						read more in our{' '}
-						<a href="#infobox">
+						<a href="#WL">
 							{' '}
 							<strong> digest</strong>{' '}
 						</a>

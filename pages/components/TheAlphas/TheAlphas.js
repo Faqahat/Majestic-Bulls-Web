@@ -41,7 +41,7 @@ function TheAlphas() {
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
 					<li className="text-justify text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-					OmenDAO is a Independent Decentralised Autonomous Organization on Solana Ecosystem. Omen is not a project its a decentralised community of Web3. OmenDAO helps the ecosystem by bringing new and innovative projects.
+					OmenDAO is an Independent Decentralised Autonomous Organization in the Solana Ecosystem. It is not just another project, but a decentralized community of professionals working together to benefit the web3 ecosystem by bringing new and innovative projects.
 					</li>
 					
 				</ul>
@@ -69,6 +69,11 @@ function TheAlphas() {
 						</div>
 					</Tooltip>
 
+					<Tooltip
+							content={"Omen DAO will create its own Treasury."}
+							rounded={false}
+							placement={"top"}
+						>
 						<div className="flex items-center gap-4">
 							<Image
 								src={Treasury}
@@ -81,6 +86,7 @@ function TheAlphas() {
 							Transparent DAO Treasury
 							</p>
 						</div>
+						</Tooltip>
 
 						<Tooltip
 							content={"The DAO participants will be able to get beautifully desgined merch."}
@@ -114,6 +120,11 @@ function TheAlphas() {
 							</p>
 						</div> */}
 						
+						<Tooltip
+							content={"All members of the DAO will have exclusive & early access in our future Projects."}
+							rounded={false}
+							placement={"bottom"}
+						> 
 						<div className="flex items-center gap-4">
 							<Image
 								src={img_checklist}
@@ -123,11 +134,12 @@ function TheAlphas() {
 								width="50"
 							/>
 							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
-							 Early Access in our future Projects 
+							 Early Access
 							</p>
 						</div>
+						</Tooltip>
 						<a
-							href="#"
+							href="#WL"
 							className="text-xl xl:text-[15px] font-nexa font-light leading-9 text-white  inline-block"
 						>
 							Be a part of our Bigger vision…
