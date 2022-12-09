@@ -1,6 +1,6 @@
 import Dot from '@imgs/dot.png'
-import Fball from '@imgs/Fball.png'
-import filledDot from '@imgs/filledDot.png'
+import diamonds from '@imgs/diamonds.png'
+import filledDot from '@imgs/diamonds.png'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
@@ -26,21 +26,22 @@ export default function Tale() {
 					<h3 className="text-2xl mb-[40px] md:text-3xl xl:text-4xl font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
 						What’s Coming Next?
 					</h3>
-					{/* <Image
-								src={Fball}
+					<div className="text-center w-[80%] ml-[50px] md:w-[100%] md:ml-[0px] ">
+					<Image
+								src={diamonds}
 								alt="img"
 								//layout="responsive"
-								 objectFit="contain"
+								//  objectFit="contain"
 								 width="400px"
 								 height="400px"
-								
-							/> */}
+							/>
+							</div>
 				</div>
 				<div className="lg:max-w-[880px] w-full">
 					<h2 className="text-2xl lg:text-3xl 2xl:text-[40px] font-bold leading-none font-nexa mb-10 xl:mb-20">
 						1. NFT Collection
 					</h2>
-					<ul className="space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
+					<ul className="text-justify space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
 							- Majestic Bulls, our first official NFT series, offers access to ongoing projects and a closed community within the OMEN ecosystem.
 						</li>
@@ -49,17 +50,26 @@ export default function Tale() {
 							OpenSea.
 						</li> */}
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- Holding TMBs gives you a ticket into our Majestic Bulls
-							Community
+							- Majestic Bull is set to launch on Magic Eden on December 2022 with a total supply of 5555 spots including 2000 WhiteList spots reserved for Collabs and Giveaways.
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- TMBs come with a lot of Future Utilities.
+							- The Majestic Bulls White List can be claimed by winning a giveaway hosted by our partners or via an application process which can be submitted <a href="https://forms.gle/M2g7EPNxdCHaKX3z9"
+						target="_blank"
+						rel="noreferrer"
+						className=' font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>here</a>.
+						</li>
+						<li className="font-light font-nexa text-black text-base  text-[16px]">
+							- Previews can be found on our Twitter 
+						<a href="https://twitter.com/MajesticBullNFT"
+							target="_blank"
+							rel="noreferrer" 
+							className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> @MajesticBullNFT</a> or teaser videos can be found below.
 						</li>
 					</ul>
 				</div>
 			</section>
 			<p className="font-light font-nexa text-black underline text-2xl lg:text-[35px]  mb-[-13px] md:mb-10 xl:mb-16 text-center decoration-1 underline-offset-8">
-				Previews
+				Teasers
 			</p>
 			<div className="w-[90%] md:w-[50%] ml-[5%] md:ml-[23%] pb-10">
 				<div>
@@ -181,7 +191,7 @@ export default function Tale() {
 					<div className="flex items-center justify-center  top-1/2 left-1/2 transform  -translate-x-1/2 -translate-y-1/2 gap-5 group">
 						{!playing ? (
 							<button
-								className=" absolute mr-[300px] md:mr-[600px] btn-play text-black w-16 h-16 lg:h-16 lg:w-16 opacity-100 flex items-center justify-center transition-all duration-200 rounded-full bg-white"
+								className=" absolute mr-[350px] md:mr-[600px] btn-play text-black w-16 h-16 lg:h-16 lg:w-16 opacity-100 flex items-center justify-center transition-all duration-200 rounded-full bg-white"
 								open
 								onClick={() => {
 									if (!playing) {

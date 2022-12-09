@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 function Navigation({ active }) {
 	const [tgl, setTgl] = useState(false)
-
+//console.log(active);
 	return (
 		<>
 			<nav
@@ -35,8 +35,8 @@ function Navigation({ active }) {
 										href="#intro"
 										className={
 											active === 'intro'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold">The </span> Intro
@@ -44,11 +44,11 @@ function Navigation({ active }) {
 								</li>
 								<li>
 									<a
-										href="#thedesign"
+										href="#theart"
 										className={
 											active === 'design'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span> Art
@@ -59,8 +59,8 @@ function Navigation({ active }) {
 										href="#tale"
 										className={
 											active === 'tale'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span> Tale
@@ -72,8 +72,8 @@ function Navigation({ active }) {
 										href="#majestic"
 										className={
 											active === 'majestic'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>  
 										 <span className="font-bold"> The </span>Majestics Ones
@@ -82,24 +82,24 @@ function Navigation({ active }) {
 
 								<li>
 									<a
-										href="#alpha"
+										href="#omen"
 										className={
 											active === 'omen'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span  className="font-bold bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text"> ? ?</span> 
 									</a>
 								</li>
-
+								
 								<li>
 									<a
 										href="#infobox"
 										className={
 											active === 'WL'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span> W/L
@@ -111,8 +111,8 @@ function Navigation({ active }) {
 										href="#alpha"
 										className={
 											active === 'alphas'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									> */} 
 									
@@ -164,11 +164,11 @@ function Navigation({ active }) {
 									}}
 								>
 									<a
-										href="#thedesign"
+										href="#theart"
 										className={
 											active === 'design'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span> Art
@@ -184,8 +184,8 @@ function Navigation({ active }) {
 										href="#tale"
 										className={
 											active === 'tale'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span> Tale
@@ -202,8 +202,8 @@ function Navigation({ active }) {
 										href="#majestic"
 										className={
 											active === 'majestic'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span>Majestics Ones
@@ -219,16 +219,16 @@ function Navigation({ active }) {
 									<a
 										href="#infobox"
 										className={
-											active === 'WL'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+											active === 'infobox'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span>W/L
 									</a>
 								</li>
 
-								{/* <li
+								<li
 									className="h-14 "
 									onClick={() => {
 										setTgl(!tgl)
@@ -238,13 +238,13 @@ function Navigation({ active }) {
 										href="#alpha"
 										className={
 											active === 'alphas'
-												? 'text-link active'
-												: 'text-link hover:transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#000000] hover:text-[#ffffff] duration-300'
+												? 'text-link  bg-[#000000] text-[#ffffff]'
+												: 'text-link hover:transition ease-in-out delay-150  hover:border-black hover:-translate-y-1 hover:scale-110  duration-300 '
 										}
 									>
 										<span className="font-bold"> The </span> Alphas
 									</a>
-								</li> */}
+								</li>
 
 								<li className="h-14 flex justify-center">
 									<a

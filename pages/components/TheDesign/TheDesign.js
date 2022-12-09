@@ -11,7 +11,7 @@ import Image from 'next/image'
 export default function TheDesign() {
 	return (
 		<section
-			id="thedesign"
+			id="theart"
 			className="  scroll-mt-28 xl:scroll-mt-40 w-full bg-white grid grid-cols-1 xl:grid-cols-[minmax(400px,810px),minmax(450px,1140px)]"
 		>
 			<div className="w-full px-5 sm:px-12 2xl:px-[40px] py-12">
@@ -28,7 +28,7 @@ export default function TheDesign() {
 					/>
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
-					<li className="text-justify text-black font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
+					<li className="text-justify text-black font-normal font-pt-mono text-base md:text-xl 2xl:text-[18px] 2xl:leading-[40px]">
 						The NFT complements the unique chemistry of our beasts and makes the
 						perfect specimen. A total of 06 rare attributes were selected. Each
 						attribute has, on average, 59 instances that accumulate to 352

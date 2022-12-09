@@ -46,7 +46,7 @@ function InfoBox() {
 						rel="noreferrer"
 						className="text-base sm:text-xl md:text-2xl xl:text-3xl font-light font-nexa  mb-5 md:mb-auto"
 					>
-						Clam WhiteList
+						Claim WhiteList
 					</a>
 				</li>
 			</ul>

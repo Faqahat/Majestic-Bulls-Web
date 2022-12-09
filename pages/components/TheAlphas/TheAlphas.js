@@ -5,6 +5,7 @@ import img_coffee_png from '@imgs/aviation.png'
 import img_online_learning from '@imgs/discord.png'
 import img_checklist from '@imgs/list.png'
 import img_hoodie from '@imgs/merchandise.png'
+import Treasury from '@imgs/Treasury.png'
 import img_bomber from '@imgs/role-playing.png'
 import OmenDao from '@imgs/OmenDao.png'
 import Image from 'next/image'
@@ -13,7 +14,7 @@ import { Tooltip } from "@nextui-org/react";
 function TheAlphas() {
 	return (
 		<section
-			id="alpha"
+			id="omen"
 			className="scroll-mt-28 xl:scroll-mt-40 w-full bg-black grid grid-cols-1 xl:grid-cols-[minmax(400px,810px),minmax(450px,1140px)]"
 		>
 			<Image
@@ -70,14 +71,14 @@ function TheAlphas() {
 
 						<div className="flex items-center gap-4">
 							<Image
-								src={img_online_learning}
+								src={Treasury}
 								alt="img"
 								className="w-11 sm:w-auto h-auto object-contain"
 								height="50"
 								width="50"
 							/>
 							<p className="text-xl xl:text-[18px] font-nexa font-light leading-9 text-white">
-							Exclusive AMA Sessions
+							Transparent DAO Treasury
 							</p>
 						</div>
 

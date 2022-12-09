@@ -38,7 +38,7 @@ function Footer() {
 							</li>
 							<li className="mb-4">
 								<a
-									href="#thedesign"
+									href="#theart"
 									className="text-lg sm:text-[20px] 2xl:text-[20px] font-nexa font-normal text-white leading-[38px]"
 								>
 									{'//'} <span className="font-bold">The</span> Art
