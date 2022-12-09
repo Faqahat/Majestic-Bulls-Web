@@ -23,6 +23,10 @@ function LandingPage() {
 	let [active, setActive] = useState('intro')
 	mixpanel.init('bf037040a1efd8980192695d12547dae', {debug: true});
 useEffect(()=>{
+	mixpanel.track('Visit', {
+		'source': "WoopsieDoodle",
+		'USer Visited': true,
+	  });
 	setActive(active)
 },[])
 	return (
