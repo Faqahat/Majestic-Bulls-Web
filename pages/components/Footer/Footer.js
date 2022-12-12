@@ -58,7 +58,7 @@ function Footer() {
 									href="#majestic"
 									className="text-lg sm:text-[20px] 2xl:text-[20px] font-nexa font-normal text-white leading-[38px]"
 								>
-									{'//'} <span className="font-bold">The</span> Majestics Ones{' '}
+									{'//'} <span className="font-bold">The</span> Majestic Ones{' '}
 								</a>
 							</li>
 							{/* <li className="mb-4">
@@ -196,7 +196,7 @@ function Footer() {
 							</li>
 							<li className="mb-10">
 								<a
-									href="https://twitter.com/Majestic_Bull"
+									href="https://twitter.com/MajesticBullNFT"
 									target="_blank"
 									rel="noreferrer"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#00acee]"

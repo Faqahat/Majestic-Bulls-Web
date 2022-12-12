@@ -122,7 +122,7 @@ function Navigation({ active }) {
 								
 							</ul>
 							<a
-								href="https://twitter.com/Majestic_Bull"
+								href="https://twitter.com/MajesticBullNFT"
 								target="_blank"
 								rel="noreferrer"
 								className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:-translate-y-1 hover:scale-110 duration-300"
@@ -228,7 +228,7 @@ function Navigation({ active }) {
 									</a>
 								</li>
 
-								<li
+								{/* <li
 									className="h-14 "
 									onClick={() => {
 										setTgl(!tgl)
@@ -244,11 +244,11 @@ function Navigation({ active }) {
 									>
 										<span className="font-bold"> The </span> Alphas
 									</a>
-								</li>
+								</li> */}
 
 								<li className="h-14 flex justify-center">
 									<a
-										href="https://twitter.com/Majestic_Bull"
+										href="https://twitter.com/MajesticBullNFT"
 										target="_blank"
 										rel="noreferrer"
 										className="2xl:h-14 w-10 h-10 2xl:w-14 border border-[#707070] rounded-full flex justify-center items-center text-[#707070] hover:bg-[#00acee] hover:-translate-y-1 hover:scale-110 duration-300"

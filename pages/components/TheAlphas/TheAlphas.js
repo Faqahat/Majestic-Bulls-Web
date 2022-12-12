@@ -41,7 +41,7 @@ function TheAlphas() {
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
 					<li className="text-justify text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-					OmenDAO is an Independent Decentralised Autonomous Organization in the Solana Ecosystem. It is not just another project, but a decentralized community of professionals working together to benefit the future of web3  by bringing new and innovative projects.
+					OmenDAO is an Independent Decentralised Autonomous Organization in the Solana Web3. It is not just another project, but a decentralized community of professionals working together to benefit the future of web3  by bringing new and innovative projects.
 					</li>
 					
 				</ul>

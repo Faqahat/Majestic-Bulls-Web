@@ -42,7 +42,7 @@ function TheMajesticOnes() {
 		{
 			name: 'The Golden',
 			description:
-				"The golden, a divinely-gifted beast with superior strength.The golden is described as monstrous, as could be expected of a bull; Gigantic ,rugged and hulking.His power was too great for the mortals cause He has the ability to melt any metal. His supersonic power over metallic things causes his enemies' ear lobes to break and renders their hearing useless. Even he is capable of blowing their mind. He  is one of the most feared deities.",
+				"The golden, a divinely-gifted beast with superior strength. The golden is described as monstrous, as could be expected of a bull; Gigantic, rugged and hulking. His power was too great for the mortals because he has the ability to melt any metal. His supersonic power over metallic things causes his enemies' ear lobes to break and renders their hearing useless. Even he is capable of blowing their mind. He  is one of the most feared deities.",
 
 			image: b2,
 			specialPower: 'Melt any Metal',
@@ -54,7 +54,7 @@ function TheMajesticOnes() {
 
 			name: 'The Plasma',
 			description:
-				'The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire.Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky.He possesses the might of 100 suns.',
+				'The sun bull, originally a deity of radiant purity, was more and more interpreted as a sun god. Anything that gets in his way will be burned by his intense fire.Every day, The sun bull ascends from a golden palace beneath the ocean and pilots his fiery chariot across the sky. He possesses the might of 100 suns.',
 			image: b3,
 			specialPower: 'Firey Death',
 			specialPowerIcon: '☠️',
@@ -76,7 +76,7 @@ function TheMajesticOnes() {
 		{
 			name: 'The Light',
 			description:
-				'The light , a legendary man-beast combining features of a Bovine and human, held the destructive power of lighting but also brought beneficial rain to agricultural land and would, therefore, be a powerful symbol of the force of nature. The light is among the most powerful diety as those who dread the darkness have never seen what the light can do.',
+				'The light, a legendary man-beast combining features of a Bovine and human, held the destructive power of lighting but also brought beneficial rain to agricultural land and would, therefore, be a powerful symbol of the force of nature. The light is among the most powerful diety as those who dread the darkness have never seen what the light can do.',
 			image: b5,
 			specialPower: 'Control Weather',
 			specialPowerIcon: '🌦️',
@@ -86,7 +86,7 @@ function TheMajesticOnes() {
 		{ 
 			name: 'The Prisim',
 			description:
-				'The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility.It confers power over other people by being invisible to the naked eye.',
+				'The prism, he is  radiance of the glory  and the exact imprint of his nature. Besides being an immortal, one of his special powers was invisibility. It confers power over other people by being invisible to the naked eye.',
 			image: b6,
 			specialPower: 'Invisibility',
 			specialPowerIcon: '🪞',
