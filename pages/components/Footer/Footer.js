@@ -185,7 +185,7 @@ function Footer() {
 						<ul>
 							<li className="mb-10">
 								<a
-									href="https://discord.gg/sMegyjpt6b"
+									href="https://discord.gg/k9RnGPxSdc"
 									target="_blank"
 									rel="noreferrer"
 									className="text-lg sm:text-[20px] font-nexa font-normal text-white leading-[24px] hover:text-[#406da2]"
