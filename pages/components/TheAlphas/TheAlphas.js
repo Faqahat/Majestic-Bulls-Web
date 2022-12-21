@@ -29,7 +29,7 @@ function TheAlphas() {
 			<div className="w-full content-center px-5 sm:px-12 2xl:px-[90px] py-12">
 				<div className="flex items-center md:items-end gap-2 sm:gap-5 mb-11 sm:mb-[65px]">
 					<h2 className="text-2xl  md:text-[45px] text-white leading-[70px] font-light font-Abreto text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-						{'//'} <span className="font-bold text-white">The</span> Omen DAO
+						{'//'} <span className="font-bold text-white">The</span> Majestic DAO
 					</h2>
 					<Image
 						src={img_alpha_heading_png}
@@ -41,17 +41,17 @@ function TheAlphas() {
 				</div>
 				<ul className="mb-[40px] space-y-2 md:space-y-0">
 					<li className="text-justify text-white font-normal font-pt-mono text-base md:text-xl 2xl:text-[24px] 2xl:leading-[40px]">
-					OmenDAO is an Independent Decentralised Autonomous Organization in the Solana Web3. It is not just another project, but a decentralized community of professionals working together to benefit the future of web3  by bringing new and innovative projects.
+					MajesticDAO is an Independent Decentralised Autonomous Organization in the Solana Web3. It is not just another project, but a decentralized community of professionals working together to benefit the future of web3  by bringing new and innovative projects.
 					</li>
 					
 				</ul>
 				<div>
 					<p className="text-2xl md:text-[20px]  text-[#717171] font-light font-nexa ">
-						Why Join OmenDAO?
+						Why Join MajesticDAO?
 					</p>
 					<div className="grid sm:grid-cols-2 gap-10 sm:gap-6 xl:gap-10 w-full mt-5">
 						<Tooltip
-							content={"The elected board members of OmenDAO will have governing rights"}
+							content={"The elected board members of MajesticDAO will have governing rights"}
 							rounded={false}
 							placement={"top"}
 						>
@@ -70,7 +70,7 @@ function TheAlphas() {
 					</Tooltip>
 
 					<Tooltip
-							content={"Omen DAO will create its own Treasury."}
+							content={"Majestic DAO will create its own Treasury."}
 							rounded={false}
 							placement={"top"}
 						>
