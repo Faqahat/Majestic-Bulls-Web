@@ -43,27 +43,34 @@ export default function Tale() {
 					</h2>
 					<ul className="text-justify space-y-6 xl:space-y-10 mb-10 xl:mb-20 pr-4">
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- Majestic Bulls, our first official NFT series, offers access to ongoing projects and a closed community within the Majestic ecosystem.
+							- Majestic Bulls is our inaugural non-fungible token (NFT) series, offering exclusive access to ongoing projects and a private community within the Majestic ecosystem. The collection is scheduled to debut on the Magic Eden platform in December 2022, with a total supply of 3333 units, including 1000 reserved for the whitelist.
 						</li>
 						{/* <li className="font-light font-nexa text-black text-base  text-[16px]">
 							- TMBs are built on Ethereum Blockchain and To be Listed on
 							OpenSea.
 						</li> */}
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- Majestic Bull is set to launch on Magic Eden on December 2022 with a total supply of 3333 spots including 1000 WhiteList spots reserved for Collabs and Giveaways.
+							- The Majestic Bulls collection is inspired by the powerful and majestic creatures that roam the kingdom of Bullsmania. Each NFT in the series captures the unique spirit and personality of these incredible beasts, making them a one-of-a-kind addition to any collection.
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- The Majestic Bulls White List can be claimed by winning a giveaway hosted by our partners or via an application process which can be submitted <a href="https://forms.gle/M2g7EPNxdCHaKX3z9"
+							- In addition to the NFTs themselves, members of the Majestic Bulls community will also have access to exclusive content and experiences. This could include behind-the-scenes access to our projects, early access to new releases, and the opportunity to participate in special events and activities. 
+							{/* <a href="https://forms.gle/M2g7EPNxdCHaKX3z9"
 						target="_blank"
 						rel="noreferrer"
-						className=' font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>here</a>.
+						className=' font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>
+							here</a>. */}
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- Previews can be found on our Twitter 
-						<a href="https://twitter.com/MajesticBullNFT"
+							- To be eligible for the Majestic Bulls whitelist, you can either participate in a giveaway hosted by one of our partners or submit an application through the provided link. Previews of the collection can be found on our Twitter page 
+							 <a href="https://twitter.com/MajesticBullNFT"
 							target="_blank"
 							rel="noreferrer" 
-							className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> @MajesticBullNFT</a> or teaser videos can be found below.
+							className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> (@MajesticBullNFT)  </a> 
+							or by watching the teaser videos below. Don't miss this exciting opportunity to be a part of the Majestic Bulls community! 
+						{/* <a href="https://twitter.com/MajesticBullNFT"
+							target="_blank"
+							rel="noreferrer" 
+							className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> @MajesticBullNFT</a> or teaser videos can be found below. */}
 						</li>
 					</ul>
 				</div>

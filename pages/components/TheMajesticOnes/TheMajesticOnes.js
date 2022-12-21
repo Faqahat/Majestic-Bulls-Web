@@ -192,7 +192,8 @@ function TheMajesticOnes() {
 					</span>
 				</div>
 				<p className="text-justify font-Abreto sm:text-[23px] font-normal leading-relaxed sm:leading-[40px] ">
-					The Majestic Ones are the twelve 1o1 Exclusive NFTS from our Collection. Each Majestic One has a story and a super power. <strong className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Click on the images below</strong> to check them out. The Majesitc Ones are minted randomly from our Collection. {' '}
+
+					The Majestic Ones are a special series of twelve exclusive NFTs within our collection, each with its own unique story and super power. To learn more about these one-of-a-kind NFTs, <strong className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Click on the images below</strong>. Please note that the Majestic Ones are randomly minted from our collection.
 					{/* <span className="color">
 						read more in our{' '}
 						<a href="#WL">

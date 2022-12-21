@@ -35,34 +35,15 @@ function Tale() {
 					className="text-justify font-Abreto text-white md:text-[16px] text-base leading-relaxed md:leading-[30px] font-light pr-3 md:pr-12  h-[380px] md:h-[380px] overflow-auto"
 					id="scrollbar-custom"
 				>
-					In the kingdom of Bullsmania, deep inside the walls of the castle
-					surrounded by huge forests, reside the creatures of wonder, the forces
-					of unnatural power, and the apex predator at the summit of the food
-					chain, The Majestic Bulls. Bulls are seen as labor, food, and
-					entertainment in old times and even today. Well, not these bulls
-					though. These hold the strength of unimaginable proportion. Even the
-					jungle king would think twice before interfering in their affairs. To
-					be fair, who wouldn&apos;t? These vast mountains of muscle would give
-					nightmares to anyone they deem to pray. These focused on physical
-					fitness spend most of their time working on their bodies and
-					maintaining the buff and muscular build. However, these oxen do not
-					interfere in the matters of the other kingdoms and solely retain their
-					affairs within the domain of Bullsmania. It&apos;s not like they need
-					to leave the kingdom for any need to get fulfilled within the
-					dynasty&apos;s locality. Bulls of all professions and cultures are
-					found here. You&apos;ve got the working bulls and the tyrant of the
-					land, the mercenaries. It hasn&apos;t always been this way, though.
-					The history of Bullsmania is built on a solid foundation and years of
-					struggle and blood. Bulls were no more than cattle until the year of
-					reckoning. Tired of the injustice and pressure imposed on them, there
-					seemed no way out for these magnificent beings until a group of brave
-					young Bulls refused to give in. Until, one day, they chose rebellion.
-					Wars broke out. Bulls that were seen as pure mammals were ruthless
-					murdering maniacs. They didn&apos;t get to be majestic overnight.
-					Nevertheless, the hierarchy of the world changed that year. The King
-					crowned the heroes of Bullsmania as the guardians of the land and
-					protectors of the generations to come. The question is: What would it
-					take to overthrow the kingdom again?
+					Welcome to the kingdom of Bullsmania, a land of wonder and magic, where the majestic bulls reign supreme. Nestled within the walls of their castle, surrounded by sprawling forests, these creatures of unparalleled strength and power hold sway over all who dare to enter their domain.
+
+						In the past, bulls were seen as nothing more than labor, food, and entertainment. But these bulls are different. They are focused on physical fitness, spending their days honing their muscles and perfecting their buff, muscular builds. They are the apex predators of their world, feared and respected by all who encounter them.
+
+						But the kingdom of Bullsmania is not all about brute force. It is home to bulls of all professions and cultures, from working bulls to mercenary tyrants. And its history is rich and complex, built on a foundation of struggle and bloodshed.
+
+						For years, the bulls of Bullsmania lived under the yoke of oppression, treated as little more than cattle. But one day, a group of brave young bulls rose up against their oppressors, choosing rebellion over submission. Wars were fought, and the hierarchy of the world was forever changed. The kings of Bullsmania were crowned as the guardians of their land, charged with protecting their people for generations to come.
+
+						But who knows what the future holds? What would it take to overthrow the kingdom once again? Only time will tell.
 				</p>
 				<br />
 			</div>
