@@ -50,7 +50,7 @@ export default function Tale() {
 							OpenSea.
 						</li> */}
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
-							- Majestic Bull is set to launch on Magic Eden on December 2022 with a total supply of 3333 spots including 2000 WhiteList spots reserved for Collabs and Giveaways.
+							- Majestic Bull is set to launch on Magic Eden on December 2022 with a total supply of 3333 spots including 1000 WhiteList spots reserved for Collabs and Giveaways.
 						</li>
 						<li className="font-light font-nexa text-black text-base  text-[16px]">
 							- The Majestic Bulls White List can be claimed by winning a giveaway hosted by our partners or via an application process which can be submitted <a href="https://forms.gle/M2g7EPNxdCHaKX3z9"
