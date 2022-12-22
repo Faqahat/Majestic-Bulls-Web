@@ -71,7 +71,7 @@ export default function Tale() {
 							target="_blank"
 							rel="noreferrer" 
 							className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> @MajesticBullNFT</a> or teaser videos can be found below. */}
-						</li>
+						</li> 
 					</ul>
 				</div>
 			</section>
