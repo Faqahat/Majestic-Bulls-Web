@@ -66,7 +66,7 @@ export default function Tale() {
 							target="_blank"
 							rel="noreferrer" 
 							className='font-bold font-nexa text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> (@MajesticBullNFT)  </a> 
-							or by watching the teaser videos below. Don't miss this exciting opportunity to be a part of the Majestic Bulls community! 
+							or by watching the teaser videos below. Dont miss this exciting opportunity to be a part of the Majestic Bulls community! 
 						{/* <a href="https://twitter.com/MajesticBullNFT"
 							target="_blank"
 							rel="noreferrer" 
